@@ -19,6 +19,9 @@ Par groupe de 2 vous allez devoir vous répartir la masse de travail pour être 
 - Il ne faut pas reproduire à l'identique le contenu, mais faire en sorte que l'on puis en ajouter et que tout se passe bien. En gros, sur la page d'accueil, pas besoin d'afficher nécessairement 4 articles dans le container central, tout comme il n'est pas obligé d'en avoir trois dans le widget "Recent Posts". Faites en sortes que le CSS soit prêt pour accueillir un nombre "illimité" de contenu.
 - Mobile first? Pas spécialement, car ici la maquette est déjà pensé telle qu'elle, donc commencer par ce que vous avez le plus simple.
 - Javascript? Pas besoin.
+- Il y a un tout début de code disponible dans le dossier `SASS` et dans le fichier `index.html`. Vous pouvez les utiliser ou repartir de zéro. Vous aurez besoin de la commande suivante:
+
+`sass --watch ./sass/main.scss ./css/main.css`
 
 ## Groupes
 
