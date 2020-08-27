@@ -1,0 +1,11 @@
+body {
+  background-color: #33264E;
+  display: grid;
+  place-items: center;
+}
+
+.main-container {
+  max-width: 1200px;
+}
+
+/*# sourceMappingURL=main.css.map */
