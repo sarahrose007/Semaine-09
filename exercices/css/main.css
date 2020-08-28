@@ -3,3 +3,23 @@ body {
 }
 
 /*# sourceMappingURL=main.css.map */
+// Ceci est un début de code, vous pouvez vous en inspirez pour commencer ou bien repartir à zéro!
+
+// Import des variables et fonctions nécessaires
+
+@import 'components/variables';
+@import 'components/functions';
+
+/* BALISES GENERALES */
+body{
+  background-color: color(bg-main);
+  display: grid;
+  place-items: center;
+}
+header{
+
+}
+/* CLASSES PRINCIPALES */
+.main-container{
+  max-width: value(width-container);
+}
