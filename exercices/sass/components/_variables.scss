@@ -1,10 +1,11 @@
-$colors:(
-  bg-main:#33264E,
-  bg-footer: #362953
-);
+
 
 $values:(
   width-container: 1200px,
+  width-article:800px,
+  width-sidebar:332px,
+  width-carrousel:1600px,
+
 );
 $colors:(
   bg-main:#33264E,
@@ -18,11 +19,13 @@ $colors:(
   cat4: #38C4D1,
   cat5: #E91E63,
   resSoc1: #63CDF1,
-  resSoc2:
-  bd-elmtPPL: #27CC81
+  resSoc2: #507cbe
+  resSoc3: #d62976
+  resSoc4: #ee3e52
 
 );
-
-$values:(
-  width-container: 1200px,
+$font-familly:(
+  logo: Vampiro One,
+  titre: Playfair Display,
+  texte: Muli,
 );
