@@ -472,7 +472,14 @@ body {
 	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/dark_wall.png) repeat;
 	margin: 0;
 }
-
+.main-container{
+  max-width: value(width-container);
+}
+body{
+  background-color:#33264E ;
+  display: grid;
+  place-items: center;
+}
 h1,h2,h3, h4 {
 	font-family: 'Lato', Helvetica, sans-serif;
 	font-weight: 300;
@@ -1101,3 +1108,9 @@ header nav ul li:hover a {
     -moz-transform: translateZ(800px)
 }
 
+.article_picture {
+  width: 210px;
+  height: 240px;
+  margin: 10px;
+  background: url(img/photos/1.jpeg) 100% /210px no-repeat;
+}
