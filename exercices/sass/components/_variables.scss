@@ -29,3 +29,54 @@ $font-familly:(
   titre: Playfair Display,
   texte: Muli,
 );
+/* Pemière façon d'écrire les VARIABLES */
+$bg-color: #673ab7;
+$color-text: white;
+$span-color: green;
+$border-style: solid;
+$border-width: 5px;
+$color-text2: orange;
+
+/* mon code */
+
+
+body{
+  background-color: $bg-color;
+}
+div.couleur{
+  color: map-get($colors, primary);
+  background-color: map-get($colors, secondary);
+}
+p{
+  color: $color-text;
+}
+span{
+  color: $span-color;
+}
+div{
+  border: $color-text $border-style $border-width;
+}
+div > .min{
+  color: $color-text2;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.main-container{
+  width: map-get($values, width-div);
+  height: map-get($values, height-div);
+  border: green solid 3px;
+  margin-top: 20px;
+
+}
+/* avec le map-get TABLEAU DE VALEURS */
+.main-container p{
+  color: map-get($colors, primary);
+  background-color: map-get($colors, secondary);
+  font-family: map-get($values, police);
+}
+/* avec les FONCTIONS */
+.little-container{
+  color: color(primary);
+
+}
