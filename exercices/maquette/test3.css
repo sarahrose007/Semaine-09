@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box{
+  background-color: rosybrown;
+}
+.box2{
+  background-color: palevioletred;
+}
+.box3{
+  background:pink ;
+}
+.box4{
+  background:blue;
+}
+main{
+  display: grid;
+}
