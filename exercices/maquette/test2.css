@@ -9,7 +9,7 @@ body{
   /*justify-content:center;*/
   height: 100vh;
   font-family: 'Courier New', Courier, monospace;
-  background:linear-gradient(147deg,#ff66bb)
+  background:#33264E;
 }
 .blog-card{
   position:absolute;
@@ -64,6 +64,7 @@ body{
 }
 .content title{
   font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 700;
   color: #0d0925;
   margin-bottom:20px  ;
@@ -85,6 +86,6 @@ body{
   color:palevioletred;
   font-weight: 600;
   letter-spacing: 1px;
-  background: blue;
+  background:#FF6071;
   border: 1px solid black;
   cursor: pointer;
