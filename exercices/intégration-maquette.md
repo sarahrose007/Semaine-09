@@ -27,13 +27,13 @@ Par groupe de 2 vous allez devoir vous répartir la masse de travail pour être 
 
 Groupe 1 | Groupe 2 | Groupe 3
 --- | --- | ---
-Plop | plop | plop
-Plop | plop | plop
+Sara | Angélique | Méthode
+Jean-Eudes | Ezechiel | Samantha
 
-Groupe 4 | Groupe 5 | Groupe 6
+Groupe 4 | Groupe 5
 --- | --- | ---
-Plop | plop | plop
-Plop | plop | plop
+Zena | Lionel
+Zena | Fanny 
 
 ## Informations maquette
 
@@ -47,7 +47,7 @@ Voici les informations fournie par votre designer concernant la maquette. Malheu
 - **Page d'article complet:** L'image de l'article fait une largeur max de **786px** sur **491px** en hauteur max
 - Les couleurs:
   - Le background: <span style="color:#33264E">**#33264E**</span>
-  - Le background footer: <span style="color:#362953">**#362953**</span>
+  - Le background footer et le bg des cards des articles: <span style="color:#362953">**#362953**</span>
   - Les liens et éléments important: <span style="color:#EE3E52">**#EE3E52**</span>
   - Les couleurs du gradient sur les boutons: <span style="color:#FF6071">**#FF6071**</span> / <span style="color:#FF7E8E">**#FF7E8E**</span>
   - Les couleurs des catégories:
@@ -65,7 +65,7 @@ Voici les informations fournie par votre designer concernant la maquette. Malheu
 - Les polices:
   - Le logo utilise **Vampiro One**
   - Les titres utilisent **Playfair Display**
-  - Le texte est en **Muli**
+  - Le texte est en **Muli** / **Mulish**
   - Ce sont des Google Font
   - La taille n'a pas d'importance tant que vous respectez l'échelle établie dans la maquette.
 - Les icônes:
