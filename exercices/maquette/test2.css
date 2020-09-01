@@ -6,7 +6,7 @@
 body{
   display: flex;
   align-items:center ;
-  /*justify-content:center;*/
+  justify-content:center;
   height: 100vh;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background:#33264E;
@@ -183,3 +183,4 @@ body{
     justify-content: center;
     left: 65%;
  }
+
