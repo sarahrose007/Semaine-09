@@ -96,6 +96,8 @@ margin-top:1rem;
     justify-content:center;
     background:color(bg-article);
     margin-bottom:2rem;
+    border: chartreuse 5px solid;
+    margin-top: 20px;
 
   justify-content:right;
   /*height: 370px;*/
@@ -115,17 +117,21 @@ margin-top:1rem;
     }
 
     .Posts-photo{
-      width:60%;
+      width:30%;
+      border: chartreuse 5px solid;
+    margin-top: 20px;
       }
 
       img{
       width:100%;
       height:100%;
       }
-      .article-description1{
+      .Post-description{
       width:60%;
       margin-left:1.5rem;
       padding:1rem0;
+      border: chartreuse 5px solid;
+    margin-top: 20px;
       }
 
       p{
@@ -136,6 +142,52 @@ margin-top:1rem;
       margin-top:1rem;
       }
 
+      .Social-Profiles{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        background:color(bg-article);
+        margin-bottom:2rem;
+
+      justify-content:right;
+      /*height: 370px;*/
+
+      max-width: 300px;
+      margin:30px;
+      background:white;
+      border: chartreuse 5px solid;
+    margin-top: 20px;
+
+      /*border-radius: 25px;
+      box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
+      top: 50%;
+        color: #0d0925;
+        z-index: 11;*/
+
+        /*-webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);*/
+        }
+
+        .Twitter-icons{
+          width:30%;
+          border: chartreuse 5px solid;
+    margin-top: 20px;
+
+          }
+
+          img{
+          width:100%;
+          height:100%;
+          }
+          .Twitter-texte{
+          width:60%;
+          margin-left:1.5rem;
+          padding:1rem0;
+          border: chartreuse 5px solid;
+    margin-top: 20px;
+    background:palevioletred;
+          }
 
 
 
