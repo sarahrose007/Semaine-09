@@ -10,39 +10,40 @@ body {
   max-width: 1200px;
 }
 
-body {
-  background-color: #33264E;
-}
-
 /* mon code */
 body {
   background-color: #673ab7;
 }
 
-p {
-  color: white;
-}
-
-span {
-  color: green;
-}
-
-div {
-  border: white solid 5px;
-}
-
-div > .min {
-  color: orange;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .main-container {
-  border: green solid 3px;
+  border: chartreuse 5px solid;
   margin-top: 20px;
 }
 
-/* avec le map-get TABLEAU DE VALEURS */
-/* avec les FONCTIONS */
+.left-container {
+  display: flex;
+  align-items: center;
+  /*justify-content:center;*/
+  height: 100vh;
+}
+
+.section-left-article {
+  position: absolute;
+  align-items: center;
+  justify-content: left;
+  height: 370px;
+  width: 95%;
+  max-width: 800px;
+  margin: 30px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  top: 50%;
+  color: #0d0925;
+  z-index: 11;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 /*# sourceMappingURL=main.css.map */

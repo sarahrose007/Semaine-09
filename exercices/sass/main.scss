@@ -16,50 +16,54 @@ body{
 .main-container{
   max-width: value(width-container);
 }
-body{
-  background-color:#33264E ;
-}
+
 /* mon code */
 
 
 body{
   background-color: $bg-color;
 }
-div.couleur{
-  color: map-get($colors, primary);
-  background-color: map-get($colors, secondary);
-}
-p{
-  color: $color-text;
-}
-span{
-  color: $span-color;
-}
-div{
-  border: $color-text $border-style $border-width;
-}
-div > .min{
-  color: $color-text2;
-  padding-left: 10px;
-  padding-right: 10px;
 
-}
 .main-container{
   width: map-get($values, width-div);
   height: map-get($values, height-div);
-  border: green solid 3px;
+  border: chartreuse 5px solid;
   margin-top: 20px;
 
 }
-/* avec le map-get TABLEAU DE VALEURS */
-.main-container p{
-  color: map-get($colors, primary);
-  background-color: map-get($colors, secondary);
-  font-family: map-get($values, police);
+
+
+
+
+.left-container{
+
+  display: flex;
+  align-items:center ;
+  /*justify-content:center;*/
+  height: 100vh;
 }
-/* avec les FONCTIONS */
-.little-container{
-  color: color(primary);
+.section-left-article{
+  position:absolute;
+  align-items:center ;
+  justify-content:left;
+  height: 370px;
+  width:95%;
+  max-width: 800px;
+  margin:30px;
+  background:white;
+  border-radius: 25px;
+  box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
+  top: 50%;
+    color: #0d0925;
+    z-index: 11;
+
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#Category{
 
 }
+h4{
 
+}

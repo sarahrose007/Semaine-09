@@ -10,11 +10,12 @@ body{
   height: 100vh;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background:#33264E;
-  border: chartreuse 5px solid;
+
+  /*border: chartreuse 5px solid;
     border-radius: 20px;
     padding: 50px;
     margin: 10px;
-    width: 50%;
+    width: 50%;*/
 
 }
 .container-left{
@@ -24,11 +25,11 @@ body{
   height: 100vh;
   font-family: 'Courier New', Courier, monospace;
   background:#33264E;
-  border: chartreuse 5px solid;
+  /*border: chartreuse 5px solid;
     border-radius: 20px;
     padding: 50px;
     margin: 10px;
-    width: 50%;
+    width: 50%;*/
 
 }
 
@@ -50,11 +51,11 @@ body{
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    border: chartreuse 5px solid;
+    /*border: chartreuse 5px solid;
     border-radius: 20px;
     padding: 50px;
     margin: 10px;
-    width: 50%;
+    width: 50%;*/
 
 
 
@@ -65,11 +66,11 @@ body{
   justify-content: center;
   padding: 0 25px;
   height: 360px;
-  border: chartreuse 5px solid;
+  /*border: chartreuse 5px solid;
     border-radius: 20px;
     padding: 50px;
     margin: 10px;
-    width: 50%;
+    width: 50%;*/
 }
 
 .img-article .img {
@@ -77,11 +78,11 @@ body{
   width: 260px;
   overflow: hidden;
   flex-shrink: 0;
-  border: chartreuse 5px solid;
+  /*border: chartreuse 5px solid;
     border-radius: 20px;
     padding: 50px;
     margin: 10px;
-    width: 50%;
+    width: 50%;*/
 
 
 }
@@ -90,11 +91,11 @@ body{
   height: 100%;
   object-fit: cover;
   cursor: pointer;
-  border: chartreuse 5px solid;
+ /* border: chartreuse 5px solid;
     border-radius: 20px;
-    padding: 50px;
-    margin: 10px;
-    width: 50%;
+    padding: 5px;
+    margin: 5px;*/
+
 
 }
 .content{
@@ -103,9 +104,9 @@ body{
   margin-left: 50px;
   border: chartreuse 5px solid;
     border-radius: 20px;
-    padding: 50px;
-    margin: 10px;
-    width: 50%;
+    padding: 5px;
+    /*margin: 10px;
+    width: 50%;*/
 
 }
 .content span{
@@ -116,9 +117,9 @@ body{
   font-weight: bold;
   border: chartreuse 5px solid;
     border-radius: 20px;
-    padding: 50px;
+    /*padding: 50px;
     margin: 10px;
-    width: 50%;
+    width: 50%;*/
 
 }
 .content title{
@@ -127,11 +128,11 @@ body{
   font-weight: 700;
   color: #0d0925;
   margin-bottom:20px  ;
-  border: chartreuse 5px solid;
+  /*border: chartreuse 5px solid;
     border-radius: 20px;
     padding: 50px;
     margin: 10px;
-    width: 50%;
+    width: 50%;*/
 
 }
 .h4::before{
