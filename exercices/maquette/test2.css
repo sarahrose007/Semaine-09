@@ -11,7 +11,16 @@ body{
   font-family: 'Courier New', Courier, monospace;
   background:#33264E;
 }
-.blog-card{
+.container-left{
+  display: flex;
+  align-items:center ;
+  /*justify-content:center;*/
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+  background:#33264E;
+}
+
+.blog-article{
   position:absolute;
   align-items:center ;
   justify-content:left;
@@ -30,14 +39,14 @@ body{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.blog-card .inner-part{
+.blog-article .img-article{
   display: flex;
   align-items:center ;
   justify-content: center;
   padding: 0 25px;
   height: 360px;
 }
-.inner-part .img {
+.img-article .img {
   height: 260px;
   width: 260px;
   overflow: hidden;
@@ -69,6 +78,21 @@ body{
   color: #0d0925;
   margin-bottom:20px  ;
 }
+.content circle{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+
+  margin-bottom:20px  ;
+  content: '';
+	height: 8px;
+	width: 8px;
+	background-color: #27CC81;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: .5rem;
+}
+
 .content text{
   font-size: 19px;
   line-height: 1.5em;
