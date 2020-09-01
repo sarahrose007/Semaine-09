@@ -80,3 +80,13 @@ grid-area: box4;
   margin-top: 1rem;
   }
 }
+
+.article-description h6::before {
+
+  content: '';
+    height: 8px;
+    width: 8px;
+    background-color: #27CC81;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .5rem;}
