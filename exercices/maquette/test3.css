@@ -16,5 +16,25 @@
   background:blue;
 }
 main{
+  height: 100vh;
   display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  grid-template-areas:"box box2"
+  "box3 box4";
+}
+.box{
+  grid-area:box ;
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+}
+.box2{
+grid-area: box2;
+}
+.box3{
+grid-area:box3 ;
+}
+.box4{
+grid-area: box4;
 }
