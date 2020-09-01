@@ -8,7 +8,7 @@ body{
   align-items:center ;
   /*justify-content:center;*/
   height: 100vh;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background:#33264E;
 }
 .container-left{
@@ -73,20 +73,15 @@ body{
 }
 .content title{
   font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: ' Playfair Display';
   font-weight: 700;
   color: #0d0925;
   margin-bottom:20px  ;
 }
-.content circle{
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 700;
-
-  margin-bottom:20px  ;
+.h4::before{
   content: '';
-	height: 8px;
-	width: 8px;
+	height: 20px;
+	width: 20px;
 	background-color: #27CC81;
 	border-radius: 50%;
 	display: inline-block;
@@ -98,6 +93,7 @@ body{
   line-height: 1.5em;
   color: #4e4a67;
   margin-bottom:30px;
+
   text-align: justify;
 }
 
