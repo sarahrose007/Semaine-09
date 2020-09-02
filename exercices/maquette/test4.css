@@ -1,5 +1,19 @@
 
+body {
+	background:#33264E; ;
+  margin: 0;
 
+}
+.main-container{
+  max-width: 1200px;
+}
+body{
+  background-color:#33264E ;
+  display: grid;
+  place-items: center;
+  border: chartreuse 5px solid;
+  margin-top: 20px;
+}
 
 .article-description h6::before {
 
@@ -47,10 +61,12 @@ max-width: width 1200px;
 margin:0px;
 display:flex;
 margin-top:1rem;
+
 }
 .left-container{
 width:60%;
 margin-right:3rem;
+
 }
 .first-article{
 width:100%;
@@ -58,6 +74,7 @@ display:flex;
 justify-content:center;
 background:color(bg-article);
 margin-bottom:2rem;
+box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
 }
 
 .article-photo{
@@ -118,8 +135,8 @@ margin-top:1rem;
 
     .Posts-photo{
       width:30%;
-      border: chartreuse 5px solid;
-    margin-top: 20px;
+     /* border: chartreuse 5px solid;
+    margin-top: 20px;*/
       }
 
       img{
@@ -130,8 +147,8 @@ margin-top:1rem;
       width:60%;
       margin-left:1.5rem;
       padding:1rem0;
-      border: chartreuse 5px solid;
-    margin-top: 20px;
+     /* border: chartreuse 5px solid;
+    margin-top: 20px;*/
       }
 
       p{
@@ -155,8 +172,8 @@ margin-top:1rem;
       max-width: 300px;
       margin:30px;
       background:white;
-      border: chartreuse 5px solid;
-    margin-top: 20px;
+      /*border: chartreuse 5px solid;
+    margin-top: 20px;*/
 
       /*border-radius: 25px;
       box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
@@ -171,8 +188,8 @@ margin-top:1rem;
 
         .Twitter-icons{
           width:30%;
-          border: chartreuse 5px solid;
-    margin-top: 20px;
+         /* border: chartreuse 5px solid;
+    margin-top: 20px;*/
 
           }
 
@@ -184,8 +201,8 @@ margin-top:1rem;
           width:60%;
           margin-left:1.5rem;
           padding:1rem0;
-          border: chartreuse 5px solid;
-    margin-top: 20px;
+          /*border: chartreuse 5px solid;
+    margin-top: 20px;*/
     background:palevioletred;
           }
 
@@ -202,8 +219,8 @@ margin-top:1rem;
       max-width: 300px;
       margin:30px;
       background:white;
-      border: chartreuse 5px solid;
-    margin-top: 20px;
+     /* border: chartreuse 5px solid;
+    margin-top: 20px;*/
 
           }
 
@@ -329,3 +346,48 @@ margin-top:1rem;
       display: inline-block;
       margin-right: .5rem;
     }
+
+    .social_icons a {
+      font-size: 35px;
+      text-decoration: none;
+      color: #000507;
+      padding: 0;
+      padding: 0 5px;
+  }
+  .get_social_content {
+    margin-top: 15px;
+  }
+    .get_social_content h2{
+      margin-bottom: 8px;
+    }
+    .social_icons {
+      margin-left: -8px;
+    }
+    .social_icons a {
+      font-size: 35px;
+      text-decoration: none;
+      color: #000507;
+      padding: 0;
+      padding: 0 5px;
+    }
+      .social_icons a span.invisible {
+        display:none;
+      }
+      .social_icons .facebook:hover{
+        background: #3b5998;
+        color: #dfe3ee;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+      .social_icons .twitter:hover{
+        background: #00B0ED;
+        color: #fff;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+      }
+      .social_icons .linkedin:hover{
+        background: #007bb6;
+        color: #fff;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
