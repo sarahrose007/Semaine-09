@@ -391,6 +391,8 @@ margin-top:1rem;
 		left: 343px;
   }
 
+
+
   .Section-Categories h6::before {
 
 
@@ -402,16 +404,21 @@ margin-top:1rem;
       border-radius: 50%;
       display: inline-block;
       margin-right: .5rem;
+
     }
 
     .Cat-1 h6::before {
       background-color:#673ab7;
+
+
     }
     .Cat-2 h6::before {
       background-color:#5567da;
     }
     .Cat-3 h6::before {
       background-color:#1e88e5;
+      display: inline-block;
+
     }
     .Cat-4 h6::before {
       background-color:#27CC81;
