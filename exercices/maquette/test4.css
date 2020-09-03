@@ -11,8 +11,8 @@ body{
   background-color:#33264E ;
   display: grid;
   place-items: center;
-  border: chartreuse 5px solid;
-  margin-top: 20px;
+ /* border: chartreuse 5px solid;
+  margin-top: 20px;*/
 }
 
 .article-description h6::before {
@@ -98,6 +98,52 @@ color:color(text);
 line-height:16px;
 margin-top:1rem;
 }
+
+.article-description .writer-img{
+  display: flex;
+  align-items:center ;
+  justify-content: left;
+  padding: 0 25px;
+  height: 360px;
+}
+.blog-article .img-article{
+  display: flex;
+  align-items:center ;
+  justify-content: left;
+  padding: 0 25px;
+  height: 360px;
+  /*border: chartreuse 5px solid;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 10px;
+    width: 50%;*/
+}
+
+.img-writer .img {
+  height: 260px;
+  width: 260px;
+  overflow: hidden;
+  flex-shrink: 0;
+  /*border: chartreuse 5px solid;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 10px;
+    width: 50%;*/
+
+
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+ /* border: chartreuse 5px solid;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;*/
+}
+
+
 
 
 ​.right-container{
@@ -375,19 +421,19 @@ margin-top:1rem;
       }
       .social_icons .facebook:hover{
         background: #3b5998;
-        color: #dfe3ee;
+        color: #000000;
         border-top-right-radius: 50px;
         border-bottom-left-radius: 50px;
       }
       .social_icons .twitter:hover{
         background: #00B0ED;
-        color: #fff;
+        color:black;
         border-top-left-radius: 50px;
         border-bottom-right-radius: 50px;
       }
       .social_icons .linkedin:hover{
         background: #007bb6;
-        color: #fff;
+        color:black;
         border-top-right-radius: 50px;
         border-bottom-left-radius: 50px;
       }
