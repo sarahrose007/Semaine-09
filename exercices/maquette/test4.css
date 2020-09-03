@@ -259,6 +259,11 @@ margin-top:1rem;
       margin-top:1rem;
       }
 
+
+/*============ . Blogs social profiles ============*/
+
+
+
       .Social-Profiles{
         width:100%;
         display:flex;
@@ -286,10 +291,10 @@ margin-top:1rem;
         transform: translateY(-50%);*/
         }
 
-        .Twitter-icons{
+        .social-icons{
           width:30%;
-         /* border: chartreuse 5px solid;
-    margin-top: 20px;*/
+          border: chartreuse 5px solid;
+          margin-top: 20px;
 
           }
 
@@ -298,13 +303,20 @@ margin-top:1rem;
           height:100%;
           }
           .Twitter-texte{
-          width:60%;
-          margin-left:1.5rem;
+          width:100%;
+          margin-right:1.5rem;
           padding:1rem0;
           /*border: chartreuse 5px solid;
     margin-top: 20px;*/
     background:palevioletred;
           }
+
+
+
+
+
+
+
 
           .Section-Categories{
             width:100%;
