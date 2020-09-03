@@ -9,6 +9,10 @@ body {
 
 .main-container{
   max-width: 1200px;
+  margin: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+
 }
 body{
   background-color:#33264E ;
@@ -46,6 +50,19 @@ content: "";
 
 
 }
+h3::before {
+
+  content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #EE3E52;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-left: .8rem;
+
+
+
+  }
 
 .date{
   display: inline-block;
@@ -86,6 +103,33 @@ height:100%;
 }
 
 /*============ . 1 article =texte===========*/
+
+
+/*.article-description .img-icons{
+  display: flex;
+  align-items:center ;
+  justify-content: right;
+ /* padding: 0 25px;*/
+  /*height: 360px;
+  padding: 10px 10px 10px;
+}*/
+.img-icons img{
+  /*width: 100%;
+  height: 100%;*/
+  object-fit: cover;
+  cursor: pointer;
+ /* border: chartreuse 5px solid;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;*/
+    height: 30px;
+	width: 30px;
+	background-color: #27CC81;
+	border-radius: 50%;
+  display: inline-block;
+
+}
+
 
 .article-description{
 width:60%;
