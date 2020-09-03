@@ -294,7 +294,7 @@ margin-top:1rem;
         .social-icons{
           width:30%;
           border: chartreuse 5px solid;
-          margin-top: 20px;
+
 
           }
 
@@ -305,9 +305,9 @@ margin-top:1rem;
           .Twitter-texte{
           width:100%;
           margin-right:1.5rem;
-          padding:1rem0;
-          /*border: chartreuse 5px solid;
-    margin-top: 20px;*/
+          padding:1rem;
+          border: chartreuse 5px solid;
+
     background:palevioletred;
           }
 
