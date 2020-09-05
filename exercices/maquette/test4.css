@@ -123,10 +123,25 @@ height:100%;
     margin: 5px;*/
     height: 30px;
 	width: 30px;
-	background-color: #27CC81;
+	/*background-color: #27CC81;
 	border-radius: 50%;
-  display: inline-block;
+  display: inline-block;*/
 
+display: inline-flex;
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    font-weight: 600;
+    letter-spacing: 1px;
+
+   /* border: 1px solid rgb(29, 21, 21);*/
+    cursor: pointer;
+    position: relative;
+    margin: 20 px;
+    justify-content: center;
+    left: 65%;
 }
 
 
@@ -291,9 +306,34 @@ margin-top:1rem;
         transform: translateY(-50%);*/
         }
 
-        .social-icons{
+        .img-icons1{
           width:30%;
-          border: chartreuse 5px solid;
+  object-fit: cover;
+  cursor: pointer;
+ /* border: chartreuse 5px solid;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;*/
+    height: 30px;
+	/*background-color: #27CC81;
+	border-radius: 50%;
+  display: inline-block;*/
+
+display: inline-flex;
+    padding: 15px 20px;
+    border: none;
+   /* font-size: 16px;
+    text-transform: uppercase;
+
+    font-weight: 600;
+    letter-spacing: 1px;*/
+
+   /* border: 1px solid rgb(29, 21, 21);*/
+    cursor: pointer;
+    position: relative;
+    margin: 20 px;
+    justify-content: center;
+    left: 65%;
 
 
           }
@@ -549,4 +589,18 @@ margin-top:1rem;
         margin: 20 px;
         justify-content: center;
         left: 65%;
+    }
+    .social_icons img{
+      object-fit: cover;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    padding: 15px 20px;
+    border: none;
+    /* border: 1px solid rgb(29, 21, 21); */
+    position: relative;
+    margin-top: 20px;
+    justify-content: left;
+    left: 80%;
     }
