@@ -1,4 +1,4 @@
-/*============ . Blogs Article ============*/
+/*============ 9. Blogs Article ============*/
 
 
 body {
@@ -21,7 +21,7 @@ body{
   margin-top: 20px;*/
 }
 
-/*============ . circle Section ============*/
+/*============ 9. circle Section ============*/
 
 
 .article-description h4::before {
@@ -75,8 +75,7 @@ display:flex;
 margin-top:1rem;
 
 }
-/*============ . Blogs Article left============*/
-
+/*============ 9. Blogs Article left============*/
 .left-container{
 width:60%;
 margin-right:3rem;
