@@ -5,8 +5,8 @@
 
 @import 'components/variables';
 @import 'components/functions';
-
-
+@import'components/left';
+@import 'components/right';
 
 body{
   background-color: color(bg-main);

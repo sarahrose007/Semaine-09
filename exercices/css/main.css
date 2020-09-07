@@ -1,49 +1,18 @@
-@charset "UTF-8";
-/* Pemière façon d'écrire les VARIABLES */
-body {
-  background-color: #33264E;
-  display: grid;
-  place-items: center;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 5 | @import 'components/variables';
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\components\_left.scss 5:9  @import
+ *   sass\main.scss 8:8              root stylesheet */
 
-.main-container {
-  max-width: 1200px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @import 'components/variables';\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\components\\_left.scss 5:9  @import\a   sass\\main.scss 8:8              root stylesheet";
 }
-
-/* mon code */
-body {
-  background-color: #673ab7;
-}
-
-.main-container {
-  border: chartreuse 5px solid;
-  margin-top: 20px;
-}
-
-.left-container {
-  display: flex;
-  align-items: center;
-  /*justify-content:center;*/
-  height: 100vh;
-}
-
-.section-left-article {
-  position: absolute;
-  align-items: center;
-  justify-content: left;
-  height: 370px;
-  width: 95%;
-  max-width: 800px;
-  margin: 30px;
-  background: white;
-  border-radius: 25px;
-  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-  top: 50%;
-  color: #0d0925;
-  z-index: 11;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-/*# sourceMappingURL=main.css.map */

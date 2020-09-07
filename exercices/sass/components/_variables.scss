@@ -5,35 +5,43 @@ $values:(
   width-article:800px,
   width-sidebar:332px,
   width-carrousel:1600px,
-
+  width-imgage: 786px,
+  height-image:491px,
 );
+
 $colors:(
   bg-main:#33264E,
   bg-footer: #362953,
   link-important: #EE3E52,
   but1: #FF6071,
   but2: #FF7E8E,
+
   cat1: #673AB7,
-  cat2: #1E88E5,
-  cat3: #27CC81,
-  cat4: #38C4D1,
-  cat5: #E91E63,
-  resSoc1: #63CDF1,
-  resSoc2: #507cbe,
-  resSoc3: #d62976,
-  resSoc4: #ee3e52,
+  cat2: #5567da,
+  cat3: #1e88e5,
+  cat4: #27cc81,
+  cat5: #38c4d1,
+  cat6:#e91e63,
+
+  resTwitter: #63CDF1,
+  resFacebook: #507cbe,
+  resInstagram: #d62976,
+  resPinterest: #ee3e52,
 
 );
+
 $font-familly:(
-  logo: Vampiro One,
+  logo: "Vampiro One",
   titre:" Playfair Display",
-  texte: Muli,
+  texte: "Muli",
 );
-/* Pemière façon d'écrire les VARIABLES */
-$bg-color: #673ab7;
+
+
 $color-text: white;
-$span-color: green;
+$span-color: rgb(0, 128, 0);
 $border-style: solid;
-$border-width: 5px;
+$border-width: 3px;
 $color-text2: orange;
+
+
 
