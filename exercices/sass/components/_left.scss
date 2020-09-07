@@ -127,9 +127,9 @@ img{
   h5::after {
 
   content: "";
-    width: 10px;
-    height: 10px;
-    background-color: #EE3E52;
+    width: Category( width-h5);
+    height:Category( height-h5);
+    background-color:Category(bg-category);
     display: inline-block;
     transform: rotate(45deg);
     margin-left: .8rem;
@@ -163,3 +163,23 @@ img{
   margin-top:1rem;
 
   }
+  button {
+    display: inline-flex;
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:colors(but2);
+    font-weight: 600;
+    letter-spacing: 1px;
+    background:color(but1);
+
+    border:Button(borde);
+    border:Button(border-ligne);
+
+    cursor: pointer;
+    position: relative;
+    margin: 20 px;
+    justify-content: center;
+    left: 65%;
+}

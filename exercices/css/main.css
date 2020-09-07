@@ -108,7 +108,7 @@ h5::after {
   content: "";
   width: 10px;
   height: 10px;
-  background-color: #EE3E52;
+  background-color: #ee3e52;
   display: inline-block;
   transform: rotate(45deg);
   margin-left: 0.8rem;
@@ -133,6 +133,25 @@ h3::before {
   margin: 0px;
   display: flex;
   margin-top: 1rem;
+}
+
+button {
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: colors(but2);
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: #FF6071;
+  border: 1px solid;
+  border: #1d1515;
+  cursor: pointer;
+  position: relative;
+  margin: 20 px;
+  justify-content: center;
+  left: 65%;
 }
 
 body {

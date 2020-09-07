@@ -14,3 +14,11 @@
 @function Auteurs-deco($variable){
   @return map-get($Auteurs-deco, $variable)
 };
+
+@function Category($variable){
+  @return map-get($Category, $variable)
+};
+
+@function Button($variable){
+  @return map-get($Button, $variable)
+};
