@@ -31,7 +31,7 @@ Sara | Angélique | Méthode
 Jean-Eudes | Ezechiel | Samantha
 
 Groupe 4 | Groupe 5
---- | --- | ---
+--- | ---
 Zena | Lionel
 Zena | Fanny 
 
