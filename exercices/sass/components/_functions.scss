@@ -5,6 +5,12 @@
 @function value($value-name){
   @return map-get($values, $value-name)
 };
-@function font($font-familly){
-  @return map-get($font-familly, $font)
+@function font($variable){
+  @return map-get($font-familly, $variable)
+};
+@function Auteurs($variable){
+  @return map-get($Auteurs, $variable)
+};
+@function Auteurs-deco($variable){
+  @return map-get($Auteurs-deco, $variable)
 };

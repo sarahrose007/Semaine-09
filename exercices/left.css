@@ -145,7 +145,7 @@ display: inline-flex;
 .article-description{
 width:60%;
 margin-left:1.5rem;
-padding:1rem0;
+padding:1rem;
 }
 
 p{
@@ -163,15 +163,7 @@ margin-top:1rem;
   padding: 0 25px;
   height: 360px;
 }
-.blog-article .img-article{
-  display: flex;
-  align-items:center ;
-  justify-content: left;
-  padding: 0 25px;
-  height: 360px;
-  display: inline-block;
 
-}
 
 .img-writer .img {
   height: 260px;
