@@ -22,3 +22,6 @@
 @function Button($variable){
   @return map-get($Button, $variable)
 };
+@function Auteurs-img($variable){
+  @return map-get($Auteurs-img, $variable)
+};
