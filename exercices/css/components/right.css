@@ -29,14 +29,32 @@ h4::after {
   margin-left: 9.8rem;
 }
 
-h3::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: #EE3E52;
-  display: inline-block;
-  transform: rotate(45deg);
-  margin-left: 0.8rem;
+/*========= . Blogs recents-post1 Right==========*/
+.Posts-photo {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.Post-description {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+}
+
+p {
+  font-family: font(text);
+  font-size: 0.6rem;
+  color: color(text);
+  line-height: 16px;
+  margin-top: 1rem;
+}
+
+.Posts-photo {
+  width: 30%;
 }
 
 /*# sourceMappingURL=right.css.map */
