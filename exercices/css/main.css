@@ -22,7 +22,6 @@ body {
 }
 
 .icon {
-  display: grid;
   place-items: center;
   font-family: "Font Awesome 5 Free";
   text-rendering: auto;
@@ -30,6 +29,12 @@ body {
   font-style: normal;
   font-variant: normal;
   font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
 }
 
 .brand {
@@ -39,6 +44,7 @@ body {
 .facebook::before {
   content: "";
   font-size: 1.5em;
+  color: #EE3E52;
 }
 
 .Article {
@@ -117,36 +123,6 @@ p {
 }
 
 /*============ . circle Section ============*/
-.article-description h4::before {
-  content: "";
-  height: 8px;
-  width: 8px;
-  background-color: #27CC81;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-
-h5::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: #ee3e52;
-  display: inline-block;
-  transform: rotate(45deg);
-  margin-left: 0.8rem;
-}
-
-h3::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: #EE3E52;
-  display: inline-block;
-  transform: rotate(45deg);
-  margin-left: 0.8rem;
-}
-
 .date {
   display: inline-block;
 }

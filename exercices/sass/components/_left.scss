@@ -25,7 +25,6 @@ body{
 
 
   .icon {
-    display: grid;
     place-items: center;
     font-family: "Font Awesome 5 Free";
     text-rendering: auto;
@@ -33,6 +32,12 @@ body{
     font-style: normal;
     font-variant: normal;
     font-weight: 900;
+    padding: 15px 20px;
+    display: inline-flex;
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+    left: 65%;
   }
 
   .brand{
@@ -42,6 +47,7 @@ body{
   .facebook::before {
     content: '\f39e';
     font-size: 1.5em;
+    color:#EE3E52 ;
   }
   .Article{
     width:100%;
@@ -133,44 +139,44 @@ object-fit: cover;
 /*============ . circle Section ============*/
 
 
-.article-description h4::before {
+// .article-description h4::before {
 
-  content: '';
-    height: Auteurs-deco(height-Deco);
-    width: Auteurs-deco(width-Deco) ;
-    background-color: #27CC81;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: .5rem;
-  }
-
-
-  h5::after {
-
-  content: "";
-    width: Category( width-h5);
-    height:Category( height-h5);
-    background-color:Category(bg-category);
-    display: inline-block;
-    transform: rotate(45deg);
-    margin-left: .8rem;
+//   content: '';
+//     height: Auteurs-deco(height-Deco);
+//     width: Auteurs-deco(width-Deco) ;
+//     background-color: #27CC81;
+//     border-radius: 50%;
+//     display: inline-block;
+//     margin-right: .5rem;
+//   }
 
 
+//   h5::after {
 
-  }
-  h3::before {
-
-    content: "";
-      width: 10px;
-      height: 10px;
-      background-color: #EE3E52;
-      display: inline-block;
-      transform: rotate(45deg);
-      margin-left: .8rem;
+//   content: "";
+//     width: Category( width-h5);
+//     height:Category( height-h5);
+//     background-color:Category(bg-category);
+//     display: inline-block;
+//     transform: rotate(45deg);
+//     margin-left: .8rem;
 
 
 
-    }
+//   }
+//   h3::before {
+
+//     content: "";
+//       width: 10px;
+//       height: 10px;
+//       background-color: #EE3E52;
+//       display: inline-block;
+//       transform: rotate(45deg);
+//       margin-left: .8rem;
+
+
+
+//     }
 
   .date{
     display: inline-block;
