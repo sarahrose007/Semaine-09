@@ -206,43 +206,43 @@ margin:30px;
 
 }
 /*============ . Blogs Categorie bubulles ============*/
-.Cat-1 h6::before {
-  background-color:colors(cat1);
+// .Cat-1 h6::before {
+//   background-color:colors(cat1);
 
 
 
-}
-.Cat-2 h6::before {
-  background-color:#5567da;
-}
-.Cat-3 h6::before {
-  background-color:#1e88e5;
-  display: inline-block;
+// }
+// .Cat-2 h6::before {
+//   background-color:#5567da;
+// }
+// .Cat-3 h6::before {
+//   background-color:#1e88e5;
+//   display: inline-block;
 
-}
-.Cat-4 h6::before {
-  background-color:#27CC81;
-}
-.Cat-5 h6::before {
-  background-color:#38c4d1;
-}
-.Cat-6 h6::before {
-  background-color:#e91e63;
-}
+// }
+// .Cat-4 h6::before {
+//   background-color:#27CC81;
+// }
+// .Cat-5 h6::before {
+//   background-color:#38c4d1;
+// }
+// .Cat-6 h6::before {
+//   background-color:#e91e63;
+// }
 
-.Section-Categories h6::before {
+// .Section-Categories h6::before {
 
 
-  content: '';
-    height: 8px;
-    width: 8px;
+//   content: '';
+//     height: 8px;
+//     width: 8px;
 
-    // background-color: #27CC81;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: .5rem;
+//     // background-color: #27CC81;
+//     border-radius: 50%;
+//     display: inline-block;
+//     margin-right: .5rem;
 
-  }
+//   }
   .Posts-photo img{
     width:Post-img(width-post);
     height:Post-img(height-post);
