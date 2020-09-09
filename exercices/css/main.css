@@ -167,7 +167,6 @@ button {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #33264E;
   margin-bottom: 2rem;
   margin-top: 20px;
   justify-content: right;
@@ -317,6 +316,20 @@ img {
 
 .Cat-6 h6::before {
   background-color: #e91e63;
+}
+
+.Section-Categories h6::before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.Posts-photo img {
+  width: 30%;
+  background: url("img/photos/6.jpeg");
 }
 
 body {
