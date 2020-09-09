@@ -95,6 +95,7 @@ img{
       position: relative;
       margin: 20px;
       justify-content: center;
+      display: inline-flex;
       left: 65%;
   }
 
@@ -106,6 +107,7 @@ img{
         width:30px;
         border-radius: 50%;
         display: inline-block;
+
       }
 
   .article-description{
@@ -113,6 +115,7 @@ img{
     margin-left:1.5rem;
     padding:1rem;
     font-family:font-family(titre);
+
     }
     p{
        font-family:font-family(texte);
@@ -192,7 +195,10 @@ object-fit: cover;
 //     }
 
   .date{
-    display: inline-block;
+    display: inline-flex;
+  }
+  .span{
+    display: inline-flex;
   }
 
 

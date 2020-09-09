@@ -76,6 +76,7 @@ img {
   position: relative;
   margin: 20px;
   justify-content: center;
+  display: inline-flex;
   left: 65%;
 }
 
@@ -128,7 +129,11 @@ p {
 
 /*============ . circle Section ============*/
 .date {
-  display: inline-block;
+  display: inline-flex;
+}
+
+.span {
+  display: inline-flex;
 }
 
 .articles-section {
