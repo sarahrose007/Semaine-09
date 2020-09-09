@@ -306,7 +306,7 @@ img {
 
 /*============ . Blogs Categorie bubulles ============*/
 .Cat-1 h6::before {
-  background-color: #673ab7;
+  background-color: colors(cat1);
 }
 
 .Cat-2 h6::before {
