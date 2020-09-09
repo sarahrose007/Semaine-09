@@ -3,7 +3,6 @@
 .right-container {
   width: 40%;
   margin-left: 3rem;
-  border-bottom: 1px solid #403F44;
   height: 130px;
 }
 
@@ -21,10 +20,23 @@
 }
 
 /*========= . Blogs ligne+circle  Right==========*/
-.horizontal_line {
-  margin: 34px 0 0 30px;
-  height: 26px;
-  position: relative;
+h4::after {
+  content: "";
+  width: 300px;
+  border-top: 3px solid #EE3E52;
+  display: inline-block;
+  margin-top: -14px;
+  margin-left: 9.8rem;
+}
+
+h3::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #EE3E52;
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-left: 0.8rem;
 }
 
 /*# sourceMappingURL=right.css.map */
