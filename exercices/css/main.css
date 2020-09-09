@@ -70,6 +70,7 @@ img {
 }
 
 /*============ . 1 article =texte===========*/
+/*============ . 1 article =texte===========*/
 .img-icons img {
   /* border: 1px solid rgb(29, 21, 21);*/
   cursor: pointer;
@@ -78,6 +79,10 @@ img {
   justify-content: center;
   display: inline-flex;
   left: 65%;
+}
+
+.writer {
+  display: flex;
 }
 
 .img-writer img {
