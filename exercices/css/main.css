@@ -67,23 +67,21 @@ img {
 
 /*============ . 1 article =texte===========*/
 .img-icons img {
-  object-fit: cover;
-  cursor: pointer;
-  height: 30px;
-  width: 30px;
-  display: inline-flex;
-  padding: 15px 20px;
-  border: none;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
   /* border: 1px solid rgb(29, 21, 21);*/
   cursor: pointer;
   position: relative;
   margin: 20px;
   justify-content: center;
   left: 65%;
+}
+
+.img-writer img {
+  object-fit: cover;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .article-description {
