@@ -43,18 +43,19 @@
 //   width: 300px;
 //   margin-top: 13px;
 // }
-h4::after {
+// h4::after {
 
-  content: "";
-    width: 300px;
-    border-top: 3px solid #EE3E52;
-    display: inline-block;
-    margin-top: -14px;
-    margin-left: 9.8rem;
+//   content: "";
+//     width: 300px;
+//     border-top: 3px solid #EE3E52;
+//     display: inline-block;
+//     margin-top: -14px;
+//     margin-left: 9.8rem;
 
 
 
-  }
+//   }
+
   // h3::before {
 
   //   content: "";
@@ -109,9 +110,9 @@ h4::after {
       line-height:16px;
       margin-top:1rem;
       }
-      .Posts-photo {
-        width: 30%;
-    }
+    //   .Posts-photo {
+    //     width: 100%;
+    // }
 /*============ . Blogs social profiles ============*/
 
 
@@ -243,6 +244,7 @@ margin:30px;
 
   }
   .Posts-photo img{
-    width: 30%;
-    background: url("img/photos/6.jpeg");
+    width:Post-img(width-post);
+    height:Post-img(height-post);
+    // background: url("img/photos/6.jpeg");
 }

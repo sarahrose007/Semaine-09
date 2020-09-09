@@ -22,12 +22,35 @@ body{
 
   }
 
+
+
+  .icon {
+    display: grid;
+    place-items: center;
+    font-family: "Font Awesome 5 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  .brand{
+    font-family: "Font Awesome 5 Brands";
+  }
+
+  .facebook::before {
+    content: '\f39e';
+    font-size: 1.5em;
+  }
   .Article{
     width:100%;
     display:flex;
     justify-content:center;
     background:color(bg-article);
     margin-bottom:2rem;
+    margin-right: 70rem;
+
     box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
     }
 

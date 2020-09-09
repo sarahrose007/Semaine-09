@@ -1,0 +1,95 @@
+/*============ . circle Section ============*/
+
+
+.article-description h2::before {
+  content: '';
+    height: Auteurs-deco(height-Deco);
+    width: Auteurs-deco(width-Deco) ;
+    background-color: #27CC81;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .5rem;
+  }
+  h5::after {
+
+  content: "";
+    width: Category( width-h5);
+    height:Category( height-h5);
+    background-color:Category(bg-category);
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-left: .8rem;
+
+  }
+  h3::before {
+
+    content: "";
+      width: 10px;
+      height: 10px;
+      background-color: #EE3E52;
+      display: inline-block;
+      transform: rotate(45deg);
+      margin-left: .8rem;
+
+
+
+    }
+
+     h4::after {
+
+       content: "";
+         width: 300px;
+        border-top: 3px solid #EE3E52;
+         display: inline-block;
+        margin-top: -14px;
+        margin-left: 9.8rem;
+
+
+
+       }
+
+      /*============ . Blogs Categorie bubulles ============*/
+.Cat-1 h6::before {
+  background-color:colors(cat1);
+
+
+
+}
+.Cat-2 h6::before {
+  background-color:#5567da;
+}
+.Cat-3 h6::before {
+  background-color:#1e88e5;
+  display: inline-block;
+
+}
+.Cat-4 h6::before {
+  background-color:#27CC81;
+}
+.Cat-5 h6::before {
+  background-color:#38c4d1;
+}
+.Cat-6 h6::before {
+  background-color:#e91e63;
+}
+
+.Section-Categories h6::before {
+
+
+  content: '';
+    height: 8px;
+    width: 8px;
+
+    // background-color: #27CC81;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .5rem;
+
+  }
+  .Article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
