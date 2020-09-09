@@ -25,3 +25,6 @@
 @function Auteurs-img($variable){
   @return map-get($Auteurs-img, $variable)
 };
+@function Post-img($variable){
+  @return map-get($Post-img, $variable)
+};

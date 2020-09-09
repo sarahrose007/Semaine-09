@@ -185,8 +185,20 @@ h4::after {
 }
 
 /*========= . Blogs recents-post1 Right==========*/
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.Post-description {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+}
+
 .Posts-photo {
-  width: 30%;
+  width: values(width-post);
+  height: values(height-post);
 }
 
 img {
@@ -332,13 +344,8 @@ img {
   background: url("img/photos/6.jpeg");
 }
 
-body {
-  background-color: #33264E;
-}
-
 .main-container {
   width: values(width-container);
-  border: chartreuse 5px solid;
   margin-top: 20px;
 }
 
