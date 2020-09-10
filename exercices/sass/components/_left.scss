@@ -1,6 +1,6 @@
 
 body{
-  background-color: color(bg-main);
+  background-color: colors(bg-main);
   // display: grid;
   place-items: center;
 }
@@ -78,7 +78,7 @@ img{
 
   .img-icons img{
 
-    // object-fit: cover;
+     object-fit: cover;
     // cursor: pointer;
     // height: 30px;
     // width: 30px;
@@ -222,7 +222,7 @@ object-fit: cover;
     color:colors(but2);
     font-weight: 600;
     letter-spacing: 1px;
-    background:color(but1);
+    background:colors(but1);
 
     border:Button(borde);
     border:Button(border-ligne);

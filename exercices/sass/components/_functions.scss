@@ -1,5 +1,5 @@
 
-@function color($color-name){
+@function colors($color-name){
   @return map-get($colors, $color-name)
 };
 @function value($value-name){
@@ -27,4 +27,7 @@
 };
 @function Post-img($variable){
   @return map-get($Post-img, $variable)
+};
+@function circle($variable){
+  @return map-get($circle, $variable)
 };

@@ -248,3 +248,14 @@ margin:30px;
     height:Post-img(height-post);
     // background: url("img/photos/6.jpeg");
 }
+
+.Social-Profiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  justify-content: right;
+  height: 90px;
+  max-width: 300px;
+  /* margin: 30px; */
+}

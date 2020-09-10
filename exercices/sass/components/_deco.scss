@@ -10,6 +10,8 @@
     display: inline-block;
     margin-right: .5rem;
   }
+
+  /*============ . circle Section ============*/
   h5::after {
 
   content: "";
@@ -21,6 +23,7 @@
     margin-left: .8rem;
 
   }
+  /*============ . circle Section ============*/
   h3::before {
 
     content: "";
@@ -34,7 +37,7 @@
 
 
     }
-
+/*============ . circle Section ============*/
      h4::after {
 
        content: "";
@@ -77,15 +80,28 @@
 
 
   content: '';
-    height: 8px;
-    width: 8px;
-
-    // background-color: #27CC81;
+    height:circle(height-circle);
+    width:circle(width-circle);
+    margin:circle(margin-circle);
+    font-family:font(texte);
+  // background-color: #27CC81;
+  //  background:colors(cat1);
     border-radius: 50%;
     display: inline-block;
     margin-right: .5rem;
 
   }
+
+  @mixin Section-Categories{
+    content:'';
+     display: inline-block;
+      width: 8px;
+       height: 8px;
+       border-radius: 50%;
+       margin: 2px 8px 2px 0;
+       font-family: font(texte);
+      }
+
   .Article {
     width: 100%;
     display: flex;
@@ -93,3 +109,49 @@
     margin-bottom: 2rem;
     box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
+
+ .Section-Categories{
+  width:100%;
+   display:flex;
+   justify-content:center;
+   background:#33264E;
+   margin-bottom:2rem;
+  //  justify-content:right;
+      /*height: 370px;*/
+   max-width: 300px;
+  margin:30px;
+
+   }
+.category{
+  &.Cat-1 h6::before{
+  background-color: colors(cat1);
+  @include Section-Categories;
+  }
+  &.Cat-2 h6::before{
+    background-color: colors(cat2);
+    @include Section-Categories;
+    }
+    &.Cat-3 h6::before{
+      background-color: colors(cat3);
+      @include Section-Categories;
+      }
+      &.Cat-4 h6::before{
+        background-color: colors(cat4);
+        @include Section-Categories;
+        }
+
+        &.Cat-6 h6::before{
+          background-color: colors(cat6);
+          @include Section-Categories;
+          }
+
+          &.Cat-5 h6::before{
+            background-color: colors(cat5);
+            @include Section-Categories;
+            }
+
+
+
+ }
+
+//  <div class=" category-cat6">Category 6</div>
