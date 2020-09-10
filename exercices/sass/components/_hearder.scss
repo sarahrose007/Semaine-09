@@ -32,21 +32,28 @@ body{
   font-size: 1.5rem;
   width: 10%;
 }
-.photo{
+// .photo{
+//   padding-top: 20px;
+//   width: 1600px;
+//   height: 480px;
+// margin-left: 200px;
+
+//   background:url("image12/photo2.jpg");
+//   background-size: cover;
+
+// }
+// #photo1{
+//   object-fit: cover;
+//   width: 1600px;
+//   height: 480px;
+//   margin-left: 200px;
+// }
+#photo1 {
   padding-top: 20px;
-  width: 1600px;
-  height: 480px;
-
-  padding-left: 320px;
- padding-right: 120px;
-  background:url("image12/photo2.jpg");
-  background-size: cover;
-
-}
-#photo1{
   object-fit: cover;
   width: 1600px;
   height: 480px;
+  margin-left: 100px;
 }
 #photo4{
   position: absolute;

@@ -553,20 +553,12 @@ body {
   width: 10%;
 }
 
-.photo {
-  padding-top: 20px;
-  width: 1600px;
-  height: 480px;
-  padding-left: 320px;
-  padding-right: 120px;
-  background: url("image12/photo2.jpg");
-  background-size: cover;
-}
-
 #photo1 {
+  padding-top: 20px;
   object-fit: cover;
   width: 1600px;
   height: 480px;
+  margin-left: 100px;
 }
 
 #photo4 {
