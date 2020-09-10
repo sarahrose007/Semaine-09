@@ -5,7 +5,7 @@
 }
 body{
   background-color:#33264E;
-  height: 100vh;
+  // height: 100vh;
 }
 .header{
   display: flex;
@@ -36,7 +36,9 @@ body{
   padding-top: 20px;
   width: 1600px;
   height: 480px;
-  padding-left: 120px;
+
+  padding-left: 320px;
+ padding-right: 120px;
   background:url("image12/photo2.jpg");
   background-size: cover;
 
@@ -62,7 +64,7 @@ body{
   font-style: normal;;
   font-size: 18px;
 }
-span{
+#rosange{
   position: absolute;
   width: 10px;
   height: 10px;
