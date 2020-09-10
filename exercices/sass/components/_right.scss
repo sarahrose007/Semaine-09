@@ -34,6 +34,17 @@
 
   }
 
+  .Posts-photo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.Posts-photo img {
+  /* width: 100%; */
+  /* height: 100%; */
+  object-fit: cover;
+}
+
 
 /*========= . Blogs ligne+circle  Right==========*/
 // .horizontal_line {
@@ -102,34 +113,35 @@
     // object-fit: cover;
     // }
 
-    .Post-description{
-    width:60%;
-    margin-left:1.5rem;
-    padding:1rem;
-     display:flex;
-     align-items: center;
+    // .Post-description{
+    // width:60%;
+    // margin-left:1.5rem;
+    // padding:1rem;
+    //  display:flex;
+    //  align-items: center;
 
 
-    }
-    .writer1{
-      display:flex;
-      align-items: center;
-    }
-    .writer1 h3 {
-      display: block;
-      font-size: 0.83em;
-      margin-block-start: 1.67em;
-      margin-block-end: 1.67em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      font-weight: bold;
-  }
+    // }
+    // .writer1{
+    //   display:flex;
+    //   align-items: center;
+    // }
+  //   .writer1 h3 {
+  //     display: block;
+  //     font-size: 0.83em;
+  //     margin-block-start: 1.67em;
+  //     margin-block-end: 1.67em;
+  //     margin-inline-start: 0px;
+  //     margin-inline-end: 0px;
+  //     font-weight: bold;
+  // }
  .Post-description p{
       font-family:font(texte);
-      font-size:.6rem;
+      font-size:.8rem;
       color:color(texte);
       line-height:16px;
       margin-top:1rem;
+      flex-direction: column;
 
       }
     //   .Posts-photo {
@@ -295,8 +307,45 @@ background:#ee3e52;
 
 //   }
   .Posts-photo img{
-    width:Post-img(width-post);
-    height:Post-img(height-post);
+    // width:Post-img(width-post);
+    // height:Post-img(height-post);
     // background: url("img/photos/6.jpeg");
     object-fit: cover;
+}
+// .Post-description {
+//   width: 60%;
+//   margin-left: -0.5rem;
+//   padding: 1rem;
+//   display: flex;
+//   align-items: center;
+// }
+
+.writer1 h3 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: -0.33em;
+  margin-block-end: -0.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.Posts-photo img {
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+
+.writer1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Post-description {
+  width: 60%;
+  margin-left: -0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+   flex-direction:column;
 }
