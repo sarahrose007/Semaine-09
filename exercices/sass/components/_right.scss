@@ -5,7 +5,7 @@
   width:40%;
   margin-left:3rem;
   // border-bottom: 1px solid #403F44;
-  // height: 130px;
+  height: 130px;
 
   }
   /*========= . Blogs recents-post Right==========*/
@@ -43,18 +43,18 @@
 //   width: 300px;
 //   margin-top: 13px;
 // }
-// h4::after {
+h4::after {
 
-//   content: "";
-//     width: 300px;
-//     border-top: 3px solid #EE3E52;
-//     display: inline-block;
-//     margin-top: -14px;
-//     margin-left: 9.8rem;
+  content: "";
+    width: 300px;
+    border-top: 3px solid #EE3E52;
+    display: inline-block;
+    margin-top: -14px;
+    margin-left: 9.8rem;
 
 
 
-//   }
+  }
 
   // h3::before {
 
@@ -144,6 +144,34 @@ top: 50%;
   }
 /*============ . Blogs social twitter ============*/
 
+.icon1 {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 30px 25px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: -45%;
+  top: -420%;
+}
+.brand{
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook1::before {
+  content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+
+
+
 .Twitter-texte{
   width: 75%;
 }
@@ -166,9 +194,9 @@ left: 65%;
 
 
   }
-  .Twitter_icons{
-    background-color:blue ;
-  }
+  // .Twitter_icons{
+  //   background-color:blue ;
+  // }
   img{
     width:100%;
     height:100%;
@@ -179,31 +207,32 @@ left: 65%;
     padding:1rem;*/
 
 
-background:#63cdf1
-;
+background:#63cdf1;
+
     }
 /*======= . Blogs social facebook ==========*/
 .Facebook-texte{
-background:#507cbe
+background:#507cbe;
+width:100%;
 }
 /*============ . Blogs social instagram ============*/
 .Instagram-texte{
-background:#d62976
+background:#d62976;
+width:100%;
 }
 .Pinterest-texte{
-background:#ee3e52
-}
-.Section-Categories{
-width:100%;
-display:flex;
-// justify-content:center;
-background:#33264E;
-margin-bottom:2rem;
-justify-content:right;
-/*height: 370px;*/
-max-width: 300px;
-margin:30px;
+background:#ee3e52;
 
+}
+.Social-Profiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  justify-content: right;
+  height: 100px;
+  max-width: 300px;
+  margin: 30px;
 }
 /*============ . Blogs Categorie bubulles ============*/
 // .Cat-1 h6::before {
@@ -247,15 +276,4 @@ margin:30px;
     width:Post-img(width-post);
     height:Post-img(height-post);
     // background: url("img/photos/6.jpeg");
-}
-
-.Social-Profiles {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-  justify-content: right;
-  height: 90px;
-  max-width: 300px;
-  /* margin: 30px; */
 }

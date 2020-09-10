@@ -92,7 +92,7 @@ img{
     //   letter-spacing: 1px;
 
      /* border: 1px solid rgb(29, 21, 21);*/
-      cursor: pointer;
+      // cursor: pointer;
       position: relative;
       margin: 20px;
       justify-content: center;
@@ -106,7 +106,7 @@ img{
   .img-writer img{
 
     object-fit: cover;
-        cursor: pointer;
+        // cursor: pointer;
         height: 30px;
         width:30px;
         border-radius: 50%;
@@ -134,7 +134,7 @@ img{
   .img img{
 
     object-fit: cover;
-    cursor: pointer;
+    // cursor: pointer;
     width:Auteurs(widht-auteur);
     height:Auteurs(height-auteur);
     border-radius:Auteurs(radius-auteur);
@@ -201,9 +201,9 @@ object-fit: cover;
   .date{
     display: inline-flex;
   }
-  .span{
-    display: inline-flex;
-  }
+  // .span{
+  //   display: inline-flex;
+  // }
 
 
   .articles-section{
@@ -227,7 +227,7 @@ object-fit: cover;
     border:Button(borde);
     border:Button(border-ligne);
 
-    cursor: pointer;
+    // cursor: pointer;
     position: relative;
     margin: 20 px;
     justify-content: center;

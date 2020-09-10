@@ -75,7 +75,6 @@ img {
 .img-icons img {
   object-fit: cover;
   /* border: 1px solid rgb(29, 21, 21);*/
-  cursor: pointer;
   position: relative;
   margin: 20px;
   justify-content: center;
@@ -90,7 +89,6 @@ img {
 
 .img-writer img {
   object-fit: cover;
-  cursor: pointer;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -113,7 +111,6 @@ p {
 
 .img img {
   object-fit: cover;
-  cursor: pointer;
   height: 30px;
   border-radius: 50%;
   display: inline-block;
@@ -140,10 +137,6 @@ p {
   display: inline-flex;
 }
 
-.span {
-  display: inline-flex;
-}
-
 .articles-section {
   max-width: width 1200px;
   margin: 0px;
@@ -163,7 +156,6 @@ button {
   background: #FF6071;
   border: 1px solid;
   border: #1d1515;
-  cursor: pointer;
   position: relative;
   margin: 20 px;
   justify-content: center;
@@ -175,6 +167,7 @@ button {
 .right-container {
   width: 40%;
   margin-left: 3rem;
+  height: 130px;
 }
 
 /*========= . Blogs recents-post Right==========*/
@@ -190,6 +183,15 @@ button {
 }
 
 /*========= . Blogs ligne+circle  Right==========*/
+h4::after {
+  content: "";
+  width: 300px;
+  border-top: 3px solid #EE3E52;
+  display: inline-block;
+  margin-top: -14px;
+  margin-left: 9.8rem;
+}
+
 /*========= . Blogs recents-post1 Right==========*/
 img {
   width: 100%;
@@ -247,6 +249,33 @@ p {
 }
 
 /*============ . Blogs social twitter ============*/
+.icon1 {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 30px 25px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: -45%;
+  top: -420%;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook1::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
 .Twitter-texte {
   width: 75%;
 }
@@ -266,10 +295,6 @@ p {
   left: 65%;
 }
 
-.Twitter_icons {
-  background-color: blue;
-}
-
 img {
   width: 100%;
   height: 100%;
@@ -285,32 +310,17 @@ img {
 /*======= . Blogs social facebook ==========*/
 .Facebook-texte {
   background: #507cbe;
+  width: 100%;
 }
 
 /*============ . Blogs social instagram ============*/
 .Instagram-texte {
   background: #d62976;
+  width: 100%;
 }
 
 .Pinterest-texte {
   background: #ee3e52;
-}
-
-.Section-Categories {
-  width: 100%;
-  display: flex;
-  background: #33264E;
-  margin-bottom: 2rem;
-  justify-content: right;
-  /*height: 370px;*/
-  max-width: 300px;
-  margin: 30px;
-}
-
-/*============ . Blogs Categorie bubulles ============*/
-.Posts-photo img {
-  width: 100%;
-  height: 100%;
 }
 
 .Social-Profiles {
@@ -319,9 +329,15 @@ img {
   justify-content: center;
   margin-bottom: 2rem;
   justify-content: right;
-  height: 90px;
+  height: 100px;
   max-width: 300px;
-  /* margin: 30px; */
+  margin: 30px;
+}
+
+/*============ . Blogs Categorie bubulles ============*/
+.Posts-photo img {
+  width: 100%;
+  height: 100%;
 }
 
 /*============ . circle Section ============*/
@@ -464,7 +480,7 @@ h4::after {
   font-family: "Muli";
 }
 .category.Cat-6 h6::before {
-  background-color: #e91e63;
+  background-color: red;
   content: "";
   display: inline-block;
   width: 8px;
