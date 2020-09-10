@@ -84,6 +84,7 @@ body{
 
 .article-photo{
 width:40%;
+object-fit: cover;
 }
 img{
   width:100%;
@@ -168,7 +169,7 @@ img{
 .img-writer img{
 
 object-fit: cover;
-    cursor: pointer;
+    // cursor: pointer;
     height: 30px;
     border-radius: 50%;
     display: inline-block;
@@ -247,7 +248,7 @@ object-fit: cover;
 
     // cursor: pointer;
     position: relative;
-    margin: 20 px;
+    margin: 20px;
     justify-content: center;
     left: 65%;
 }

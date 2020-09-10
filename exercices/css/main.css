@@ -62,6 +62,7 @@ body {
 
 .article-photo {
   width: 40%;
+  object-fit: cover;
 }
 
 img {
@@ -118,7 +119,6 @@ p {
 
 .img-writer img {
   object-fit: cover;
-  cursor: pointer;
   height: 30px;
   border-radius: 50%;
   display: inline-block;
@@ -150,7 +150,7 @@ button {
   border: 1px solid;
   border: #1d1515;
   position: relative;
-  margin: 20 px;
+  margin: 20px;
   justify-content: center;
   left: 65%;
 }
@@ -517,17 +517,15 @@ h4::after {
   align-content: center;
 }
 
-.writer-x span {
+.writer-x {
   display: inline-flex;
+  display: flex;
+  align-items: center;
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #33264E;
 }
 
 .header {
@@ -586,7 +584,8 @@ body {
   left: 880px;
   background: magenta;
   top: 520px;
-  border-radius: 100%;
+  transform: rotate(45deg);
+  margin: 2px 8px 2px 0;
 }
 
 #point {
@@ -594,7 +593,7 @@ body {
   left: 835px;
   width: 10px;
   height: 10px;
-  background: green;
+  background: #27CC81;
   border-radius: 100%;
   top: 353px;
 }
