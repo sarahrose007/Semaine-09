@@ -13,7 +13,7 @@
   }
 
   /*============ . circle Section ============*/
-  h5::after {
+  .writer-x h5::after {
 
   content: "";
     width: Category( width-h5);
@@ -179,4 +179,7 @@ h4::after {
   margin-left: 5.8rem;
   display:flex;
   align-content: center;
+}
+.writer-x span{
+  display: inline-flex;
 }
