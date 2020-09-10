@@ -180,18 +180,11 @@ button {
   justify-content: right;
   max-width: 300px;
   margin: 30px;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  z-index: 11;
 }
 
 /*========= . Blogs ligne+circle  Right==========*/
-h4::after {
-  content: "";
-  width: 300px;
-  border-top: 3px solid #EE3E52;
-  display: inline-block;
-  margin-top: -14px;
-  margin-left: 9.8rem;
-}
-
 /*========= . Blogs recents-post1 Right==========*/
 img {
   width: 100%;
@@ -202,16 +195,20 @@ img {
   width: 60%;
   margin-left: 1.5rem;
   padding: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .Posts-photo {
   width: values(width-post);
   height: values(height-post);
+  object-fit: cover;
 }
 
 img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .Post-description {
@@ -338,6 +335,7 @@ img {
 .Posts-photo img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 /*============ . circle Section ============*/
@@ -480,7 +478,7 @@ h4::after {
   font-family: "Muli";
 }
 .category.Cat-6 h6::before {
-  background-color: red;
+  background-color: #e91e63;
   content: "";
   display: inline-block;
   width: 8px;
