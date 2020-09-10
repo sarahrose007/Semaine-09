@@ -175,7 +175,8 @@ h4::after {
   content: "";
   width: 170px;
   border-top: 1px solid #EE3E52;
-  display: inline-block;
-  margin-top: -6px;
+  // display: inline-block;
   margin-left: 5.8rem;
+  display:flex;
+  align-content: center;
 }

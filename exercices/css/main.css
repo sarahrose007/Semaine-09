@@ -191,12 +191,6 @@ button {
   object-fit: cover;
 }
 
-.Posts-photo img {
-  /* width: 100%; */
-  /* height: 100%; */
-  object-fit: cover;
-}
-
 /*========= . Blogs ligne+circle  Right==========*/
 /*========= . Blogs recents-post1 Right==========*/
 .Post-description {
@@ -205,12 +199,6 @@ button {
   padding: 1rem;
   display: flex;
   align-items: center;
-}
-
-.Posts-photo {
-  width: values(width-post);
-  height: values(height-post);
-  object-fit: cover;
 }
 
 .Post-description p {
@@ -522,9 +510,9 @@ h4::after {
   content: "";
   width: 170px;
   border-top: 1px solid #EE3E52;
-  display: inline-block;
-  margin-top: -6px;
   margin-left: 5.8rem;
+  display: flex;
+  align-content: center;
 }
 
 .main-container {
