@@ -150,19 +150,59 @@ body{
   top: 140px;
   color: white;
 }
-.fa-facebook{
-position: absolute;
-left: 380px;
-top: 60px;
-width: 30px;
-height: 30px;
-border-radius: 100%;
-background-color: magenta;
-color: white;
-}
-.fa-tumblr{
+// .fa-facebook{
+// position: absolute;
+// left: 380px;
+// top: 60px;
+// width: 30px;
+// height: 30px;
+// border-radius: 100%;
+// background-color: magenta;
+// color: white;
+// }
+// .fa-tumblr{
+//   position: absolute;
+//   left: 420px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-instagram{
+//   position: absolute;
+//   left: 460px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-pinterest{
+//   position: absolute;
+//   left: 500px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+// .fa-reddit{
+//   position: absolute;
+//   left: 1500px;
+//   top: 60px;
+//   width: 30px;
+//   height: 30px;
+//   border-radius: 100%;
+//   background-color: magenta;
+//   color: white;
+// }
+.fa-reddit {
   position: absolute;
-  left: 420px;
+  left: 1350px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -170,9 +210,9 @@ color: white;
   background-color: magenta;
   color: white;
 }
-.fa-instagram{
+.fa-facebook {
   position: absolute;
-  left: 460px;
+  left: 489px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -180,9 +220,9 @@ color: white;
   background-color: magenta;
   color: white;
 }
-.fa-pinterest{
+.fa-tumblr {
   position: absolute;
-  left: 500px;
+  left: 521px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -190,9 +230,20 @@ color: white;
   background-color: magenta;
   color: white;
 }
-.fa-reddit{
+.fa-instagram {
   position: absolute;
-  left: 1500px;
+  left: 555px;
+  top: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
+.fa-pinterest {
+  position: absolute;
+  left: 590px;
   top: 60px;
   width: 30px;
   height: 30px;

@@ -683,9 +683,20 @@ body {
   color: white;
 }
 
+.fa-reddit {
+  position: absolute;
+  left: 1350px;
+  top: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
 .fa-facebook {
   position: absolute;
-  left: 380px;
+  left: 489px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -696,7 +707,7 @@ body {
 
 .fa-tumblr {
   position: absolute;
-  left: 420px;
+  left: 521px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -707,7 +718,7 @@ body {
 
 .fa-instagram {
   position: absolute;
-  left: 460px;
+  left: 555px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -718,18 +729,7 @@ body {
 
 .fa-pinterest {
   position: absolute;
-  left: 500px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
-.fa-reddit {
-  position: absolute;
-  left: 1500px;
+  left: 590px;
   top: 60px;
   width: 30px;
   height: 30px;
