@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 body {
   background-color: #33264E;
@@ -752,6 +753,248 @@ h4::after {
   border-radius: 100%;
   background-color: magenta;
   color: white;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1200px;
+  height: 200px;
+  border-bottom: white solid 1px;
+}
+
+.logo-footer {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 30%;
+}
+
+.logo2f {
+  display: flex;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 10%;
+}
+
+#photo1 {
+  padding-top: 20px;
+  object-fit: cover;
+  width: 1600px;
+  height: 480px;
+  margin-left: 100px;
+}
+
+#photo4 {
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  border-radius: 100%;
+  left: 750px;
+  top: 500px;
+}
+
+#john {
+  position: absolute;
+  left: 800px;
+  color: white;
+  top: 510px;
+  font-style: normal;
+  font-size: 18px;
+}
+
+#rosange {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 880px;
+  background: magenta;
+  top: 520px;
+  transform: rotate(45deg);
+  margin: 2px 8px 2px 0;
+}
+
+#point {
+  position: absolute;
+  left: 835px;
+  width: 10px;
+  height: 10px;
+  background: #27CC81;
+  border-radius: 100%;
+  top: 353px;
+}
+
+#année {
+  position: absolute;
+  left: 900px;
+  color: white;
+  top: 515px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.photo h2 {
+  position: absolute;
+  left: 560px;
+  color: white;
+  top: 400px;
+  font-style: normal;
+  font-size: 34px;
+}
+
+.photo h6 {
+  position: absolute;
+  left: 850px;
+  color: white;
+  top: 350px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#submit-btn {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background-color: magenta;
+  left: 800px;
+  color: white;
+  top: 600px;
+  font-style: italic;
+  font-size: 24px;
+}
+
+.texte1f {
+  position: absolute;
+  left: 980px;
+  top: 2505px;
+  color: white;
+}
+
+.texte2f {
+  position: absolute;
+  left: 1040px;
+  top: 2505px;
+  color: white;
+}
+
+.texte3f {
+  position: absolute;
+  left: 1110px;
+  top: 2505px;
+  color: white;
+}
+
+.texte4f {
+  position: absolute;
+  left: 1180px;
+  top: 2505px;
+  color: white;
+}
+
+.Subscribe {
+  position: absolute;
+  left: 1180px;
+  top: 2505px;
+  color: white;
+  width: 30%;
+  /* object-fit: cover; */
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.Subscribe p {
+  position: absolute;
+  left: 1180px;
+  top: 2505px;
+  color: white;
+  width: 30%;
+  /* object-fit: cover; */
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.fa-facebook {
+  position: absolute;
+  left: 489px;
+  top: 2505px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
+.fa-tumblr {
+  position: absolute;
+  left: 521px;
+  top: 2505px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
+.fa-instagram {
+  position: absolute;
+  left: 555px;
+  top: 2505px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
+.fa-pinterest {
+  position: absolute;
+  left: 590px;
+  top: 2505px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
+.caractère-footer h1 {
+  position: absolute;
+  left: 270px;
+  color: white;
+  top: 2505px;
+  font-family: "Vampiro One";
+  font-size: 64px;
+}
+
+.Article-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: color(bg-article);
+  margin-bottom: 2rem;
+  margin-right: 70rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.footer-description {
+  margin: auto;
+  display: flex;
+  margin-top: 8rem;
+  width: 1200px;
 }
 
 .main-container {
