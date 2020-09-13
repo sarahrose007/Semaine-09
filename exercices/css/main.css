@@ -959,6 +959,17 @@ Article-footer {
   float: left;
 }
 
+.footer-description {
+  float: right;
+}
+
+.footer-description {
+  /* width: 70%; */
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-family: font-family(titre);
+}
+
 .main-container {
   width: values(width-container);
   margin-top: 20px;
