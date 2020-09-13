@@ -755,18 +755,107 @@ h4::after {
   color: white;
 }
 
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .footer {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   width: 1200px;
   height: 200px;
-  border-bottom: white solid 1px;
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+}
+
+.caractère-footer {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  justify-content: right;
+  height: 200px;
+  margin: 30px;
+  background-color: red;
+}
+
+.caractère-footer h1 {
+  width: 1200px;
+  position: absolute;
+  left: 270px;
+  color: white;
+  top: 2370px;
+  font-family: "Vampiro One";
+  font-size: 64px;
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+  width: 100%;
+}
+
+.footer-left {
+  /* width: 800px; */
+  margin-right: 3rem;
+  margin-left: 3rem;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+img-icons-footer {
+  /* position: relative; */
+  margin: 20px;
+  /* justify-content: center; */
+  /* display: inline-flex; */
+  left: -37%;
+  width: 100%;
+}
+
+.icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 19%;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+.footer-description {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-family: font-family(titre);
+}
+
+.footer-description p {
+  font-family: font-family(texte);
+  font-size: 0.8rem;
+  line-height: 16px;
+  margin-top: 1rem;
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 16px;
 }
 
 .logo-footer {
@@ -781,80 +870,6 @@ h4::after {
   text-align: center;
   font-size: 1.5rem;
   width: 10%;
-}
-
-#photo1 {
-  padding-top: 20px;
-  object-fit: cover;
-  width: 1600px;
-  height: 480px;
-  margin-left: 100px;
-}
-
-#photo4 {
-  position: absolute;
-  width: 40px;
-  height: 35px;
-  border-radius: 100%;
-  left: 750px;
-  top: 500px;
-}
-
-#john {
-  position: absolute;
-  left: 800px;
-  color: white;
-  top: 510px;
-  font-style: normal;
-  font-size: 18px;
-}
-
-#rosange {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  left: 880px;
-  background: magenta;
-  top: 520px;
-  transform: rotate(45deg);
-  margin: 2px 8px 2px 0;
-}
-
-#point {
-  position: absolute;
-  left: 835px;
-  width: 10px;
-  height: 10px;
-  background: #27CC81;
-  border-radius: 100%;
-  top: 353px;
-}
-
-#année {
-  position: absolute;
-  left: 900px;
-  color: white;
-  top: 515px;
-  font-style: normal;
-  font-size: 14px;
-}
-
-.photo h2 {
-  position: absolute;
-  left: 560px;
-  color: white;
-  top: 400px;
-  font-style: normal;
-  font-size: 34px;
-}
-
-.photo h6 {
-  position: absolute;
-  left: 850px;
-  color: white;
-  top: 350px;
-  font-style: normal;
-  font-size: 14px;
 }
 
 #submit-btn {
@@ -872,28 +887,28 @@ h4::after {
 .texte1f {
   position: absolute;
   left: 980px;
-  top: 2505px;
+  top: 2410px;
   color: white;
 }
 
 .texte2f {
   position: absolute;
   left: 1040px;
-  top: 2505px;
+  top: 2410px;
   color: white;
 }
 
 .texte3f {
   position: absolute;
   left: 1110px;
-  top: 2505px;
+  top: 2410px;
   color: white;
 }
 
 .texte4f {
   position: absolute;
   left: 1180px;
-  top: 2505px;
+  top: 2410px;
   color: white;
 }
 
@@ -927,74 +942,21 @@ h4::after {
   left: 65%;
 }
 
-.fa-facebook {
-  position: absolute;
-  left: 489px;
-  top: 2505px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
-.fa-tumblr {
-  position: absolute;
-  left: 521px;
-  top: 2505px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
-.fa-instagram {
-  position: absolute;
-  left: 555px;
-  top: 2505px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
-.fa-pinterest {
-  position: absolute;
-  left: 590px;
-  top: 2505px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
-.caractère-footer h1 {
-  position: absolute;
-  left: 270px;
-  color: white;
-  top: 2505px;
-  font-family: "Vampiro One";
-  font-size: 64px;
-}
-
-.Article-footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background: color(bg-article);
-  margin-bottom: 2rem;
-  margin-right: 70rem;
-  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-}
-
 .footer-description {
   margin: auto;
   display: flex;
   margin-top: 8rem;
   width: 1200px;
+}
+
+Article-footer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background: color(bg-article);
+  /* margin-bottom: 2rem; */
+  /* margin-right: 70rem; */
+  float: left;
 }
 
 .main-container {
