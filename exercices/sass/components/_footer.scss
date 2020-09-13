@@ -14,38 +14,28 @@
   margin-bottom: 9rem;
   margin-top: 9rem;
 }
-.caractère-footer{
-  width: 1200px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-  justify-content: right;
-  height: 200px;
 
-  margin: 30px;
-  background-color: red;
-}
 
-.caractère-footer h1 {
-  width: 1200px;
-    position: absolute;
-    left: 270px;
-    color: white;
-    top: 2370px;
-    font-family: "Vampiro One";
-    font-size: 64px;
-    margin-bottom: 9rem;
-    margin-top: 9rem;
-    width: 100%;
-    // display: flex;
-    // justify-content: center;
-    // margin-bottom: 2rem;
-    // justify-content: right;
-    // height: 100px;
-    // max-width: 300px;
-    // margin: 30px;
+// .caractère-footer h1 {
+//   width: 1200px;
+//     position: absolute;
+//     left: 270px;
+//     color: white;
+//     top: 2370px;
+//     font-family: "Vampiro One";
+//     font-size: 64px;
+//     margin-bottom: 9rem;
+//     margin-top: 9rem;
+//     width: 100%;
+//     // display: flex;
+//     // justify-content: center;
+//     // margin-bottom: 2rem;
+//     // justify-content: right;
+//     // height: 100px;
+//     // max-width: 300px;
+//     // margin: 30px;
 
-}
+// }
 // .footer-left{
 //   width: 800px;
 //   margin-right: 3rem;
@@ -205,28 +195,32 @@ img-icons-footer {
 //    font-size: 64px;
 //  }
 .texte1f{
-  position: absolute;
+  // position: absolute;
   left: 980px;
   top:2410px;
   color: white;
+  margin: 20px 20px 20px 0;
 }
 .texte2f{
-  position: absolute;
+  // position: absolute;
   left: 1040px;
   top: 2410px;
   color: white;
+  margin: 20px 20px 20px 0;
 }
 .texte3f{
-  position: absolute;
+  // position: absolute;
   left: 1110px;
   top: 2410px;
   color: white;
+  margin: 20px 20px 20px 0;
 }
 .texte4f{
-  position: absolute;
+  // position: absolute;
   left: 1180px;
   top: 2410px;
   color: white;
+  margin: 20px 20px 20px 0;
 }
 // .fa-facebook{
 // position: absolute;
@@ -395,4 +389,33 @@ img-icons-footer {
   margin-left: 1.5rem;
   padding: 1rem;
   font-family: font-family(titre);
+}
+
+.caractère-footer {
+  /* width: 1200px; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  /* justify-content: right; */
+  height: 150px;
+  margin: 20px;
+  background-color:#362953 ;
+}
+.caractère-footer h1 {
+  width: 1200px;
+  position: absolute;
+  left: 230px;
+  color: white;
+  top: 2300px;
+  font-family: "Vampiro One";
+  font-size: 64px;
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+  width: 100%;
+}
+.footer-left{
+  display: flex;
+  align-items:center ;
+  justify-content: left;
+  padding: 0 25px;
 }
