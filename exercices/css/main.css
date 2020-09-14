@@ -1027,9 +1027,6 @@ Article-footer {
 }
 
 .footer-contact {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1040,6 +1037,22 @@ Article-footer {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 3rem;
+}
+
+.footer-left {
+  background: #362953;
+  width: 30%;
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  font-family: "Playfair Display";
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 .main-container {
