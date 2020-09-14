@@ -45,6 +45,7 @@ body{
   // font-family:font-family(titre);
   font-family:"Playfair Display";
    font-size: 30px;
+   color:white;
 }
 
 
@@ -151,14 +152,18 @@ object-fit: cover;
     p{
        font-family:font-family(texte);
       font-size:.8rem;
-      // color:color(text);
+       color:white;
       line-height:16px;
       margin-top:1rem;
+
 
       }
       h2{
         font-family:"Playfair Display";
    font-size: 16px;
+
+    color: white;
+
       }
 
 
@@ -281,4 +286,7 @@ button {
   margin: 16px;
   justify-content: center;
   left: 65%;
+}
+.writer-x h5{
+  color:white;
 }

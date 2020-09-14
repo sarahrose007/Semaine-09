@@ -198,6 +198,22 @@
   margin-left: 10px;
   padding-bottom: 1rem;
 }
+// .icon-f {
+//   place-items: center;
+//   font-family: "Font Awesome 5 Free";
+//   text-rendering: auto;
+//   -webkit-font-smoothing: antialiased;
+//   font-style: normal;
+//   font-variant: normal;
+//   font-weight: 900;
+//   padding: 15px 20px;
+//   display: inline-flex;
+//   position: relative;
+//   margin: 20px;
+//   justify-content: center;
+//   /* left: 65%; */
+
+// }
 .icon-f {
   place-items: center;
   font-family: "Font Awesome 5 Free";
@@ -206,16 +222,21 @@
   font-style: normal;
   font-variant: normal;
   font-weight: 900;
-  padding: 15px 20px;
-  display: inline-flex;
+  // padding: 15px 20px;
+  // display: inline-flex;
   position: relative;
   margin: 20px;
   justify-content: center;
-  /* left: 65%; */
-
+  // left: 65%;
 }
 
 .icon-T {
+  margin: 0 1rem 1rem 0;
+}
+.icon-F {
+  margin: 0 1rem 1rem 0;
+}
+.icon-I {
   margin: 0 1rem 1rem 0;
 }
 .contact i {

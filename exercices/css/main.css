@@ -23,6 +23,7 @@ body {
 .article-description h1 {
   font-family: "Playfair Display";
   font-size: 30px;
+  color: white;
 }
 
 .icon {
@@ -97,6 +98,7 @@ body {
 p {
   font-family: font-family(texte);
   font-size: 0.8rem;
+  color: white;
   line-height: 16px;
   margin-top: 1rem;
 }
@@ -104,6 +106,7 @@ p {
 h2 {
   font-family: "Playfair Display";
   font-size: 16px;
+  color: white;
 }
 
 .img img {
@@ -155,6 +158,10 @@ button {
   margin: 16px;
   justify-content: center;
   left: 65%;
+}
+
+.writer-x h5 {
+  color: white;
 }
 
 /*============ . Blogs Article ============*/
@@ -303,6 +310,7 @@ button {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  color: white;
 }
 
 .Posts-photo img {
@@ -408,6 +416,7 @@ button {
   transform: rotate(45deg);
   margin-left: 0.8rem;
   margin: 2px 10px 4px 8px;
+  color: #fff;
 }
 
 /*============ . circle Section ============*/
@@ -454,6 +463,7 @@ h3::before {
   width: 8px;
   margin: 0 8px 2px 0;
   font-family: "Muli";
+  color: #fff;
   border-radius: 50%;
   display: inline-block;
   margin-right: 0.5rem;
@@ -755,17 +765,6 @@ h4::after {
   margin-top: 9rem;
 }
 
-.footer-left {
-  width: 800px;
-  margin-right: 3rem;
-  margin-left: 3rem;
-  width: 100%;
-  justify-content: center;
-  margin-bottom: 2rem;
-  display: flex;
-  align-items: center;
-}
-
 .brand {
   font-family: "Font Awesome 5 Brands";
 }
@@ -825,18 +824,6 @@ a {
   width: 100%;
 }
 
-.footer-left {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding: 0 25px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-}
-
 .caractère-footer {
   background: #362953;
   margin: 0 auto;
@@ -867,19 +854,6 @@ a {
 
 .nav-links a {
   padding: 0 0.5rem;
-}
-
-.footer-contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 3rem;
 }
 
 .footer-left {
@@ -948,6 +922,7 @@ span {
 
 .footer-contact {
   max-width: 1200px;
+  height: 300px;
   margin: 2rem auto;
   padding: 0 2rem;
   display: -webkit-box;
@@ -969,34 +944,16 @@ span {
   font-style: normal;
 }
 
-.footer-contact {
-  margin: 2rem auto;
-  margin-bottom: 2rem;
-  padding: 0 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 3rem;
-}
-
 .footer-left {
   background: #362953;
   width: 30%;
-  margin-right: 2rem;
+  margin-right: 4rem;
   padding-bottom: 1rem;
   margin: 10px;
   width: 100%;
-  height: 100px;
-  display: flex;
+  height: 200px;
   justify-content: center;
   margin-bottom: 2rem;
-  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
 .footer-right {
@@ -1196,15 +1153,20 @@ span {
   font-style: normal;
   font-variant: normal;
   font-weight: 900;
-  padding: 15px 20px;
-  display: inline-flex;
   position: relative;
   margin: 20px;
   justify-content: center;
-  /* left: 65%; */
 }
 
 .icon-T {
+  margin: 0 1rem 1rem 0;
+}
+
+.icon-F {
+  margin: 0 1rem 1rem 0;
+}
+
+.icon-I {
   margin: 0 1rem 1rem 0;
 }
 
