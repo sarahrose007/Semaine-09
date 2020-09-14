@@ -171,22 +171,22 @@ top: 50%;
   }
 /*============ . Blogs social twitter ============*/
 
-.icon1 {
-//   place-items: center;
-//   font-family: "Font Awesome 5 Free";
-//    text-rendering: auto;
-//    -webkit-font-smoothing: antialiased;
-//    font-style: normal;
-//    font-variant: normal;
-//    font-weight: 900;
-  padding: 30px 25px;
- display: inline-flex;
- position: relative;
- margin: 20px;
- justify-content: center;
-  left: -45%;
- top: -420%;
- }
+// .icon1 {
+// //   place-items: center;
+// //   font-family: "Font Awesome 5 Free";
+// //    text-rendering: auto;
+// //    -webkit-font-smoothing: antialiased;
+// //    font-style: normal;
+// //    font-variant: normal;
+// //    font-weight: 900;
+//   padding: 30px 25px;
+//  display: inline-flex;
+//  position: relative;
+//  margin: 20px;
+//  justify-content: center;
+//   left: -45%;
+//  top: -420%;
+//  }
 .brand{
   font-family: "Font Awesome 5 Brands";
 }
@@ -418,21 +418,48 @@ background:#ee3e52;
   //     top: -420%;
   //     padding: 30px 25px;
   // }
-  .img-icons1 {
-    width: 30%;
-    /* object-fit: cover; */
-    height: 50px;
-    display: inline-flex;
-    padding: 15px 20px;
-    border: none;
-    position: relative;
-    margin: 20px;
-    /* justify-content: center; */
-    left: 65%;
+//   .img-icons1 {
+//     width: 30%;
+//     /* object-fit: cover; */
+//     height: 50px;
+//     display: inline-flex;
+//     padding: 15px 20px;
+//     border: none;
+//     position: relative;
+//     margin: 20px;
+//     /* justify-content: center; */
+//     left: 65%;
+// }
+.img-icons1 {
+  width: 30%;
+  /* object-fit: cover; */
+  height: 40px;
+  display: inline-flex;
+  padding: 15px 20px;
+  border: none;
+  position: relative;
+  margin: 20px;
+  /* justify-content: center; */
+  left: 65%;
 }
 .icon1 {
   place-items: center;
   /* font-family: "Font Awesome 5 Free"; */
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: -45%;
+  top: -420%;
+}
+.icon1 {
+  place-items: center;
+  // font-family: "Font Awesome 5 Free";
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   font-style: normal;

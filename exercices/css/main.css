@@ -226,16 +226,6 @@ button {
 }
 
 /*============ . Blogs social twitter ============*/
-.icon1 {
-  padding: 30px 25px;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: -45%;
-  top: -420%;
-}
-
 .brand {
   font-family: "Font Awesome 5 Brands";
 }
@@ -355,7 +345,7 @@ button {
 .img-icons1 {
   width: 30%;
   /* object-fit: cover; */
-  height: 50px;
+  height: 40px;
   display: inline-flex;
   padding: 15px 20px;
   border: none;
@@ -368,6 +358,21 @@ button {
 .icon1 {
   place-items: center;
   /* font-family: "Font Awesome 5 Free"; */
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: -45%;
+  top: -420%;
+}
+
+.icon1 {
+  place-items: center;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -469,12 +474,25 @@ h3::before {
   background: #33264E;
   margin-bottom: 2rem;
   /*height: 370px;*/
-  max-width: 300px;
-  margin: 30px;
+  max-width: 215px;
+  margin: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  font-family: "Mulish";
+  color: whitesmoke;
+  margin-bottom: 2rem;
+  line-height: 2rem;
 }
 
 .category.Cat-1 h6::before {
   background-color: #673AB7;
+  margin: 2px 8px 2px 0;
   content: "";
   display: inline-block;
   width: 8px;
@@ -485,6 +503,7 @@ h3::before {
 }
 .category.Cat-2 h6::before {
   background-color: #5567da;
+  margin: 2px 8px 2px 0;
   content: "";
   display: inline-block;
   width: 8px;
@@ -495,6 +514,7 @@ h3::before {
 }
 .category.Cat-3 h6::before {
   background-color: #1e88e5;
+  margin: 2px 8px 2px 0;
   content: "";
   display: inline-block;
   width: 8px;
@@ -505,6 +525,7 @@ h3::before {
 }
 .category.Cat-4 h6::before {
   background-color: #27cc81;
+  margin: 2px 8px 2px 0;
   content: "";
   display: inline-block;
   width: 8px;
@@ -515,6 +536,7 @@ h3::before {
 }
 .category.Cat-6 h6::before {
   background-color: #e91e63;
+  margin: 2px 8px 2px 0;
   content: "";
   display: inline-block;
   width: 8px;
@@ -525,6 +547,7 @@ h3::before {
 }
 .category.Cat-5 h6::before {
   background-color: #38c4d1;
+  margin: 2px 8px 2px 0;
   content: "";
   display: inline-block;
   width: 8px;
@@ -765,31 +788,6 @@ h4::after {
   margin-top: 9rem;
 }
 
-.footer-left {
-  /* width: 800px; */
-  margin-right: 3rem;
-  margin-left: 3rem;
-  width: 100%;
-  justify-content: center;
-  margin-bottom: 2rem;
-  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-  /* display: flex; */
-  /* align-items: center; */
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 3rem;
-}
-
 img-icons-footer {
   /* position: relative; */
   margin: 20px;
@@ -856,6 +854,31 @@ h2 {
   text-align: center;
   font-size: 1.5rem;
   width: 30%;
+  font-family: "Vampiro One";
+  font-size: 3rem;
+  color: #ebebeb;
+  text-align: center;
+  margin-right: 5rem;
+}
+
+.logo-footer1 {
+  font-family: "Vampiro One";
+  font-size: 3rem;
+  color: #ebebeb;
+  text-align: center;
+  margin-right: 5rem;
+}
+
+.nav-links a {
+  padding: 0 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #dadada;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
 }
 
 .logo2f {
@@ -969,9 +992,11 @@ Article-footer {
   justify-content: center;
   margin-bottom: 2rem;
   /* justify-content: right; */
-  height: 150px;
+  height: 250px;
   margin: 20px;
   background-color: #362953;
+  width: 100%;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
 .caractère-footer h1 {
@@ -992,6 +1017,11 @@ Article-footer {
   align-items: center;
   justify-content: left;
   padding: 0 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
 .caractère-footer {
@@ -1085,6 +1115,152 @@ h4 {
 
 .icon-f {
   margin: 0 1rem 1rem 0;
+}
+
+.news-footer {
+  margin-right: 2rem;
+}
+
+.news-footer p {
+  color: whitesmoke;
+  font-size: 0.9rem;
+}
+
+footer {
+  height: 10vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #777777;
+}
+
+span {
+  color: whitesmoke;
+  font-family: "Playfair Display";
+  font-size: 1rem;
+}
+
+.contact {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.contact i {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+}
+.contact-twitter {
+  color: color-icon(twitter);
+}
+.contact-facebook {
+  color: color-icon(facebook);
+}
+.contact-instagram {
+  color: color-icon(instagram);
+}
+.contact-pinterest {
+  color: color-icon(pinterest);
+}
+
+.footer-left .img-icons-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.line-left {
+  font-family: "Playfair Display";
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.line_left h4::after {
+  content: "";
+  width: 9rem;
+  height: 2px;
+  background-color: #EE3E52;
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.contact i {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+}
+
+.contact-twitter {
+  color: #63CDF1;
+}
+
+.contact-facebook {
+  color: #507cbe;
+}
+
+.contact-instagram {
+  color: #d62976;
+}
+
+.contact-pinterest {
+  color: #ee3e52;
+}
+
+.fa-instagram:before {
+  content: "";
+}
+
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.contact-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .main-container {

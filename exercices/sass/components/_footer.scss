@@ -48,30 +48,30 @@
 //     display: flex;
 //     align-items: center;
 // }
-.footer-left {
-  /* width: 800px; */
-  margin-right: 3rem;
-  margin-left: 3rem;
-  width: 100%;
-  justify-content: center;
-  margin-bottom: 2rem;
-  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-  /* display: flex; */
-  /* align-items: center; */
-  max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 3rem;
-}
+// .footer-left {
+//   /* width: 800px; */
+//   margin-right: 3rem;
+//   margin-left: 3rem;
+//   width: 100%;
+//   justify-content: center;
+//   margin-bottom: 2rem;
+//   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+//   /* display: flex; */
+//   /* align-items: center; */
+//   max-width: 1200px;
+//     margin: 2rem auto;
+//     padding: 0 2rem;
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -webkit-box-pack: center;
+//     -ms-flex-pack: center;
+//     justify-content: center;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     align-items: center;
+//     margin-bottom: 3rem;
+// }
 img-icons-footer {
   /* position: relative; */
   margin: 20px;
@@ -162,7 +162,32 @@ img-icons-footer {
   text-align: center;
   font-size: 1.5rem;
   width: 30%;
+  font-family: "Vampiro One";
+    font-size: 3rem;
+    color: #ebebeb;
+    text-align: center;
+    margin-right: 5rem;
 }
+.logo-footer1{
+  font-family: "Vampiro One";
+  font-size: 3rem;
+  color: #ebebeb;
+  text-align: center;
+  margin-right: 5rem;
+}
+.nav-links a {
+  padding: 0 .5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #dadada;
+  font-size: .9rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+}
+
+
 // .caractère{
 //   width: 60%;
 // }
@@ -412,9 +437,11 @@ img-icons-footer {
   justify-content: center;
   margin-bottom: 2rem;
   /* justify-content: right; */
-  height: 150px;
+  height: 250px;
   margin: 20px;
   background-color:#362953 ;
+  width: 100%;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 .caractère-footer h1 {
   width: 1200px;
@@ -433,6 +460,11 @@ img-icons-footer {
   align-items:center ;
   justify-content: left;
   padding: 0 25px;
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
  .caractère-footer {
@@ -525,4 +557,48 @@ h4{
 
 .icon-f{
   margin: 0 1rem 1rem 0;
+}
+.news-footer {
+  margin-right: 2rem;
+}
+
+.news-footer p {
+  color: whitesmoke;
+  font-size: .9rem;
+}
+
+footer {
+  height: 10vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #777777;
+ }
+
+// footer p {
+//   color: whitesmoke;
+//   font-size: .8rem;
+// }
+
+// footer .top::after {
+//   content: "";
+//   width: 0px;
+//   height: 0px;
+//   border-right: 12px solid transparent;
+//   border-bottom: 12px solid #EE3E52;
+//   border-left: 12px solid transparent;
+//   position: absolute;
+//   margin-left: 1rem;
+// }
+span {
+  color: whitesmoke;
+  font-family: "Playfair Display";
+  font-size: 1rem;
 }

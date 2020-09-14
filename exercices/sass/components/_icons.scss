@@ -1,0 +1,117 @@
+  .contact{
+ 	max-width: value(width-container);
+ 	margin: 2rem auto;
+ 	padding: 0 2rem;
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-bottom: 3rem;
+
+	i{
+		font-size: 1.5rem;
+		padding: 1rem;
+		font-family: "Fontawesome" !important;
+		font-style: normal;
+
+	}
+
+	&-twitter{
+		color: color-icon(twitter);
+	}
+	&-facebook{
+		color: color-icon(facebook);
+	}
+	&-instagram{
+		color: color-icon(instagram);
+	}
+	&-pinterest{
+		color: color-icon(pinterest);
+	}
+
+  }
+  .footer-left .img-icons-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.line-left{
+  font-family: "Playfair Display";
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 1rem;
+    letter-spacing: .1rem;
+}
+.line_left h4::after {
+  content: "";
+  width: 9rem;
+  height: 2px;
+  background-color: #EE3E52;
+  display: inline-block;
+  margin-left: .5rem;
+  margin-bottom: 0.3rem;
+}
+.contact i {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+}
+.contact-twitter {
+  color:colors(resTwitter);
+}
+// .contact-twitter {
+//   color: #63CDF1;
+// }
+
+.contact-facebook {
+  // color: #507CBE;
+  color:colors(resFacebook);
+}
+
+.contact-instagram {
+  // color: #D62976;
+  color:colors(resInstagram);
+}
+
+.contact-pinterest {
+  // color: #EE3E52;
+  color:colors(resPinterest);
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.contact-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
