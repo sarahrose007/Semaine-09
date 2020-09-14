@@ -250,6 +250,54 @@ button {
   align-items: center;
 }
 
+.Twitter-texte h6 {
+  line-height: 10px;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: whitesmoke;
+  padding-left: 2rem;
+  font-family: "Mulish";
+}
+
+.Twitter-texte h2 {
+  color: whitesmoke;
+  padding-left: 2rem;
+  font-family: "Playfair Display";
+  font-size: 16px;
+}
+
+.Facebook-texte h6 {
+  line-height: 10px;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: whitesmoke;
+  padding-left: 2rem;
+  font-family: "Mulish";
+}
+
+.Facebook-texte h2 {
+  color: whitesmoke;
+  padding-left: 2rem;
+  font-family: "Playfair Display";
+  font-size: 16px;
+}
+
+.Instagram-texte h6 {
+  line-height: 10px;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: whitesmoke;
+  padding-left: 2rem;
+  font-family: "Mulish";
+}
+
+.Instagram-texte h2 {
+  color: whitesmoke;
+  padding-left: 2rem;
+  font-family: "Playfair Display";
+  font-size: 16px;
+}
+
 .img-icons1 {
   width: 30%;
   /* object-fit: cover; */
@@ -261,6 +309,10 @@ button {
   margin: 20px;
   justify-content: center;
   left: 65%;
+}
+
+.fa-twitter::before {
+  content: "";
 }
 
 .Twitter-texte {
