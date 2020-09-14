@@ -734,42 +734,9 @@ h4::after {
   color: white;
 }
 
-.fa-facebook {
-  position: absolute;
-  left: 489px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
 .fa-tumblr {
   position: absolute;
   left: 521px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
-.fa-instagram {
-  position: absolute;
-  left: 555px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-
-.fa-pinterest {
-  position: absolute;
-  left: 590px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -788,77 +755,19 @@ h4::after {
   margin-top: 9rem;
 }
 
-img-icons-footer {
-  /* position: relative; */
-  margin: 20px;
-  /* justify-content: center; */
-  /* display: inline-flex; */
-  left: -37%;
+.footer-left {
+  width: 800px;
+  margin-right: 3rem;
+  margin-left: 3rem;
   width: 100%;
-}
-
-.icon-f {
-  place-items: center;
-  font-family: "Font Awesome 5 Free";
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  padding: 15px 20px;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
   justify-content: center;
-  left: 19%;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .brand {
   font-family: "Font Awesome 5 Brands";
-}
-
-.facebook::before {
-  content: "";
-  font-size: 1.5em;
-  color: #EE3E52;
-}
-
-.footer-description {
-  width: 60%;
-  margin-left: 1.5rem;
-  padding: 1rem;
-  font-family: font-family(titre);
-  display: flex;
-  align-items: center;
-}
-
-.footer-description p {
-  font-family: font-family(texte);
-  font-size: 0.8rem;
-  line-height: 16px;
-  margin-top: 1rem;
-  width: 60%;
-  margin-left: 1.5rem;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-}
-
-h2 {
-  font-family: "Playfair Display";
-  font-size: 16px;
-}
-
-.logo-footer {
-  display: flex;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 30%;
-  font-family: "Vampiro One";
-  font-size: 3rem;
-  color: #ebebeb;
-  text-align: center;
-  margin-right: 5rem;
 }
 
 .logo-footer1 {
@@ -881,109 +790,13 @@ a {
   letter-spacing: 0.2rem;
 }
 
-.logo2f {
-  display: flex;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 10%;
+.footer-right {
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
-#submit-btn {
-  position: absolute;
-  width: 200px;
-  height: 40px;
-  background-color: magenta;
-  left: 800px;
-  color: white;
-  top: 600px;
-  font-style: italic;
-  font-size: 24px;
-}
-
-.texte1f {
-  left: 980px;
-  top: 2410px;
-  color: white;
-  margin: 20px 20px 20px 0;
-}
-
-.texte2f {
-  left: 1040px;
-  top: 2410px;
-  color: white;
-  margin: 20px 20px 20px 0;
-}
-
-.texte3f {
-  left: 1110px;
-  top: 2410px;
-  color: white;
-  margin: 20px 20px 20px 0;
-}
-
-.texte4f {
-  left: 1180px;
-  top: 2410px;
-  color: white;
-  margin: 20px 20px 20px 0;
-}
-
-.Subscribe {
-  position: absolute;
-  left: 1180px;
-  top: 2505px;
-  color: white;
-  width: 30%;
-  /* object-fit: cover; */
-  display: inline-flex;
-  padding: 15px 20px;
-  border: none;
-  margin: 20px;
-  justify-content: center;
-  left: 65%;
-}
-
-.Subscribe p {
-  position: absolute;
-  left: 1180px;
-  top: 2505px;
-  color: white;
-  width: 30%;
-  /* object-fit: cover; */
-  display: inline-flex;
-  padding: 15px 20px;
-  border: none;
-  margin: 20px;
-  justify-content: center;
-  left: 65%;
-}
-
-.footer-description {
-  margin: auto;
-  display: flex;
-  margin-top: 8rem;
-  width: 1200px;
-}
-
-Article-footer {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  background: color(bg-article);
-  /* margin-bottom: 2rem; */
-  /* margin-right: 70rem; */
-  float: left;
-}
-
-.footer-description {
-  float: right;
-}
-
-.footer-description {
-  /* width: 70%; */
-  margin-left: 1.5rem;
-  padding: 1rem;
-  font-family: font-family(titre);
+.news-footer p {
+  color: whitesmoke;
+  font-size: 0.9rem;
 }
 
 .caractère-footer {
@@ -1085,21 +898,7 @@ h4 {
   letter-spacing: 0.1rem;
 }
 
-.footer-left .img-icons-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.left-contact .contact-icons {
+.footer-left .footer-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1147,6 +946,81 @@ span {
   font-size: 1rem;
 }
 
+.footer-contact {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.footer-contact i {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+}
+
+.footer-contact {
+  margin: 2rem auto;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.footer-left {
+  background: #362953;
+  width: 30%;
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+  margin: 10px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.footer-right {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.enter {
+  width: 15rem;
+  padding: 1rem 2rem;
+  margin-left: 0;
+  bottom: 0;
+}
+
+.ligne_left h4::after {
+  content: "";
+  width: 9rem;
+  height: 2px;
+  background-color: #EE3E52;
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
 .contact {
   max-width: 1200px;
   margin: 2rem auto;
@@ -1173,20 +1047,6 @@ span {
 }
 .contact-pinterest {
   color: color-icon(pinterest);
-}
-
-.footer-left .img-icons-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 .line-left {
@@ -1217,22 +1077,30 @@ span {
 
 .contact-twitter {
   color: #63CDF1;
+  margin: 10px;
 }
 
 .contact-facebook {
   color: #507cbe;
+  margin: 10px;
 }
 
 .contact-instagram {
   color: #d62976;
+  margin: 10px;
 }
 
 .contact-pinterest {
   color: #ee3e52;
+  margin: 10px;
 }
 
 .fa-instagram:before {
   content: "";
+}
+
+contact-instagram {
+  color: #D62976;
 }
 
 .footer-icons {
@@ -1261,6 +1129,90 @@ span {
   justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.footer-left .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  background: color(bg-article);
+  width: 30%;
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+}
+.footer-left .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.icon-T {
+  margin: 0 1rem 1rem 0;
+}
+
+span {
+  color: color(texte);
+  font-size: 1rem;
+}
+
+.left-contact .footer-icons {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.footer-left {
+  background: #362953;
+  width: 30%;
+  margin-right: 2rem;
+  margin-left: 10px;
+  padding-bottom: 1rem;
+}
+
+.icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  /* left: 65%; */
+}
+
+.icon-T {
+  margin: 0 1rem 1rem 0;
+}
+
+.contact i {
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
 }
 
 .main-container {

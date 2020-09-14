@@ -1,37 +1,183 @@
   .contact{
- 	max-width: value(width-container);
+  	max-width: value(width-container);
  	margin: 2rem auto;
- 	padding: 0 2rem;
-	display: flex;
- 	justify-content: center;
- 	align-items: center;
- 	margin-bottom: 3rem;
+  	padding: 0 2rem;
+ 	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin-bottom: 3rem;
 
-	i{
-		font-size: 1.5rem;
-		padding: 1rem;
-		font-family: "Fontawesome" !important;
-		font-style: normal;
+ 	i{
+ 		font-size: 1.5rem;
+ 		padding: 1rem;
+ 		font-family: "Fontawesome" !important;
+ 		font-style: normal;
 
-	}
+ 	}
 
 	&-twitter{
-		color: color-icon(twitter);
-	}
-	&-facebook{
-		color: color-icon(facebook);
-	}
-	&-instagram{
-		color: color-icon(instagram);
-	}
-	&-pinterest{
-		color: color-icon(pinterest);
-	}
+ 		color: color-icon(twitter);
+ 	}
+ 	&-facebook{
+ 		color: color-icon(facebook);
+ 	}
+ 	&-instagram{
+ 		color: color-icon(instagram);
+ 	}
+ 	&-pinterest{
+ 		color: color-icon(pinterest);
+ 	}
 
   }
-  .footer-left .img-icons-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
+//  .footer-left .img-icons-footer {
+//      display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     align-items: center;
+//     -webkit-box-pack: center;
+//     -ms-flex-pack: center;
+//     justify-content: center;
+//     -ms-flex-wrap: wrap;
+//     flex-wrap: wrap;
+// }
+.line-left{
+   font-family: "Playfair Display";
+     font-size: 1.5rem;
+     font-weight: 800;
+     color: #fff;
+     margin-bottom: 1rem;
+     letter-spacing: .1rem;
+ }
+ .line_left h4::after {
+ content: "";
+   width: 9rem;
+   height: 2px;
+   background-color: #EE3E52;
+   display: inline-block;
+   margin-left: .5rem;
+   margin-bottom: 0.3rem;
+ }
+.contact i {
+   font-size: 1.5rem;
+   padding: 1rem;
+   font-family: "Fontawesome" !important;
+   font-style: normal;
+ }
+ .contact-twitter {
+  color:colors(resTwitter);
+  margin: 10px;
+ }
+
+
+.contact-facebook {
+
+   color:colors(resFacebook);
+ margin: 10px;
+ }
+
+ .contact-instagram {
+//   // color: #D62976;
+  color:colors(resInstagram);
+  margin: 10px;
+ }
+
+ .contact-pinterest {
+//   // color: #EE3E52;
+  color:colors(resPinterest);
+   margin: 10px;
+ }
+ .fa-instagram:before {
+  content: "\f16d";
+ }
+ contact-instagram {
+   color: #D62976;
+ }
+ .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+   align-items: center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+ }
+ .contact-icons {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+ }
+
+
+
+.footer-left .footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+	background:color(bg-article) ;
+	width: 30%;
+	margin-right: 2rem;
+	 padding-bottom: 1rem;
+
+
+		.footer-icons{
+			display: flex;
+			align-items: center;
+	   		justify-content: center;
+			flex-wrap: wrap;
+			//  width: 50%;
+		}
+	}
+
+
+
+.icon-T{
+	margin: 0 1rem 1rem 0;
+}
+
+		span{
+	color: color(texte);
+	font-family: font(title);
+	font-size: 1rem;
+
+  }
+  // .fa-instagram {
+  //   // position: absolute;
+  //   // left: 555px;
+  //   // top: 60px;
+  //   // width: 30px;
+  //   // height: 30px;
+  //   // border-radius: 100%;
+  //   // background-color: magenta;
+  //   // color: white;
+  // }
+  .left-contact .footer-icons {
+    // display: -webkit-box;
+    // display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -41,77 +187,40 @@
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin:10px;
+
 }
-.line-left{
-  font-family: "Playfair Display";
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: #fff;
-    margin-bottom: 1rem;
-    letter-spacing: .1rem;
+
+.footer-left {
+  background: #362953;
+  width: 30%;
+  margin-right: 2rem;
+  margin-left: 10px;
+  padding-bottom: 1rem;
 }
-.line_left h4::after {
-  content: "";
-  width: 9rem;
-  height: 2px;
-  background-color: #EE3E52;
-  display: inline-block;
-  margin-left: .5rem;
-  margin-bottom: 0.3rem;
+.icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  /* left: 65%; */
+
+}
+
+.icon-T {
+  margin: 0 1rem 1rem 0;
 }
 .contact i {
   font-size: 1.5rem;
   padding: 1rem;
   font-family: "Fontawesome" !important;
   font-style: normal;
-}
-.contact-twitter {
-  color:colors(resTwitter);
-}
-// .contact-twitter {
-//   color: #63CDF1;
-// }
-
-.contact-facebook {
-  // color: #507CBE;
-  color:colors(resFacebook);
-}
-
-.contact-instagram {
-  // color: #D62976;
-  color:colors(resInstagram);
-}
-
-.contact-pinterest {
-  // color: #EE3E52;
-  color:colors(resPinterest);
-}
-.fa-instagram:before {
-  content: "\f16d";
-}
-.footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.contact-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
