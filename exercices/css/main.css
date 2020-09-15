@@ -1234,6 +1234,110 @@ span {
   font-style: normal;
 }
 
+.articles-section {
+  margin: auto;
+  display: flex;
+  margin-top: 8rem;
+  width: 1200px;
+}
+
+.left-container {
+  width: 800px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.article-description h1 {
+  font-family: "Playfair Display";
+  font-size: 30px;
+  color: white;
+}
+
+.icon {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+.Article-long {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: color(bg-article);
+  margin-bottom: 2rem;
+  margin-right: 70rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+}
+
+.article-photo-long {
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-description-long {
+  width: 60%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  font-family: font-family(titre);
+}
+
+p {
+  font-family: font-family(texte);
+  font-size: 0.8rem;
+  color: white;
+  line-height: 16px;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  color: white;
+}
+
+.img img {
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.img-writer img {
+  object-fit: cover;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.article-description .writer-img {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 25px;
+  height: values(height-image);
+}
+
 .main-container {
   width: values(width-container);
   margin-top: 20px;
