@@ -315,6 +315,11 @@ button {
   content: "";
 }
 
+.contact-twitter {
+  color: #63CDF1;
+  margin: 10px;
+}
+
 .Twitter-texte {
   width: 100%;
   /*margin-right:1.5rem;

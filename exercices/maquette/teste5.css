@@ -421,14 +421,14 @@ button {
   color: #EE3E52;
 }
 
-.left-contact {
+/* .left-contact {
   background: #362953;
   width: 30%;
   margin-right: 2rem;
   padding-bottom: 1rem;
-}
+} */
 
-.left-contact .contact-icons {
+/* .left-contact .contact-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -440,7 +440,7 @@ button {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
+} */
 
 .icon-1 {
   margin: 0 1rem 1rem 0;
