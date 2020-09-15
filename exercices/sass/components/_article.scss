@@ -61,6 +61,7 @@
 .article-photo-long{
 width:100%;
 object-fit: cover;
+// background:url("img/photos/1.jpeg");
 }
 .article-description-long{
   width:60%;
@@ -99,6 +100,12 @@ object-fit: cover;
   border-radius:Auteurs(radius-auteur);
   display: inline-block;
 
+}
+.article-photo-long img{
+  object-fit: cover;
+
+  width:100%;
+  height: 100%;
 }
 .img-writer img{
 
