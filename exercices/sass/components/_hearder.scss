@@ -1,84 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
-*{
-  margin: 0;
-  box-sizing: border-box;
-}
+// *{
+//   margin: 0;
+//   box-sizing: border-box;
+// }
 /*============ . HEADER===========*/
-.header{
+.header {
+
   display: flex;
-  flex-wrap: wrap;
-  margin:auto;
-   width: 1200px;
-   height: 200px;
-  border-bottom:white solid 1px
+  justify-content:space-between;
+
+  align-items: center;
+
+  width: 1200px;
+
+  // border-bottom:white solid 1px
 
 }
+
 /*============ .LOGO ICONS===========*/
 
-header .header-icons {
+
+
+
+
+.menu-header{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header img {
-  margin-right: 7px;
-}
- .search-icon img{
-  margin-right: 7px;
-}
-
-.menu-header{
-  display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
+   -ms-flex-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-left: 5rem;
+     margin-left: 6rem;
     margin-bottom: 2rem;
-}
-.nav-header {
+ }
+ .nav-header {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 5rem;
-  margin-bottom: 2rem;
+ display: flex;
+ -webkit-box-pack: center;
+  -ms-flex-pack: center;
+    justify-content: center;
+   -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+   margin-left: 5rem;
+   margin-bottom: 2rem;
+ }
+
+// .nav-header ul {
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -webkit-box-pack: end;
+//   -ms-flex-pack: end;
+//  justify-content: flex-end;
+//   -webkit-box-align: center;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   width: 200px;
+// }
+
+// .nav-header li {
+//   margin: .3rem;
+// }
+
+.ligne-header {
+  width: 1200px;
+  height: 1px;
+  background-color: #777777;
+  margin: 3rem auto;
+}
+.search-icon {
+
+  width:50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.insta {
+
+  width:50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.pint {
+
+  width:50px;
+  height: 50px;
+  border-radius: 100%;
 }
 
-.nav-header ul {
-
-
-
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 200px;
+.facebook{
+  width:50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.twitter{
+  width:50px;
+  height: 50px;
+  border-radius: 100%;
 }
 
-.nav-header li {
-  margin: .3rem;
+.caractère {
+  font-family: "Vampiro One";
+  font-size: 3rem;
+  color: #ebebeb;
+  text-align: center;
+  margin-right: 5rem;
 }
-
 
 
 
@@ -94,46 +125,23 @@ header img {
 // .caractère{
 //   width: 60%;
 // }
-.texte1{
-  position: absolute;
-  left: 780px;
-  top: 140px;
-  color: white;
-}
-.texte2{
-  position: absolute;
-  left: 880px;
-  top: 140px;
-  color: white;
-}
-.texte3{
-  position: absolute;
-  left: 980px;
-  top: 140px;
-  color: white;
-}
-.texte4{
-  position: absolute;
-  left: 1080px;
-  top: 140px;
-  color: white;
-}
 
 
-.logo2{
-  display: flex;
-  text-align: center;
-  font-size: 1.5rem;
-  width: 10%;
-}
-.caractère h1{
-  position: absolute;
-  left: 830px;
-  color: white;
-   top: 30px;
-   font-family:"Vampiro One";
-   font-size: 64px;
- }
+
+// .logo2{
+//   display: flex;
+//   text-align: center;
+//   font-size: 1.5rem;
+//   width: 10%;
+// }
+// .caractère h1{
+//   position: absolute;
+//   left: 830px;
+//   color: white;
+//    top: 30px;
+//    font-family:"Vampiro One";
+//    font-size: 64px;
+//  }
 /*============ .SLIDER SECTION===========*/
 
 #photo1 {
@@ -204,6 +212,32 @@ header img {
   font-style: normal;;
   font-size: 14px;
 }
+
+.carousel {
+  background-image:url(img/photo/1.jpg),
+  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: url(../images/pexels-lisa-fotios-1882410.jpg), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 1600px;
+  height: 480px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.carousel .carousel-photo {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+
+
 /*============ .SLIDER SECTION=BOUTTON==========*/
 
 #submit-btn{
@@ -221,106 +255,108 @@ header img {
 
 /*============ .ICONS facebook==========*/
 
-// .fa-facebook{
-// position: absolute;
-// left: 380px;
-// top: 60px;
-// width: 30px;
-// height: 30px;
-// border-radius: 100%;
-// background-color: magenta;
-// color: white;
-// }
-// .fa-facebook {
-  //   position: absolute;
-  //   left: 489px;
-  //   top: 60px;
-  //   width: 30px;
-  //   height: 30px;
-  //   border-radius: 100%;
-  //   background-color: magenta;
-  //   color: white;
-  // }
+
 
 /*============ .ICONS twiter==========*/
 
-// .fa-tumblr{
-//   position: absolute;
-//   left: 420px;
-//   top: 60px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-.fa-tumblr {
-  position: absolute;
-  left: 521px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
+
 /*============ .ICONS instagram==========*/
- .fa-instagram{
-   position: absolute;
-  left: 460px;
-  top: 60px;
-  width: 30px;
-   height: 30px;
- border-radius: 100%;
-   background-color: magenta;
-   color: white;
-  }
-// .fa-instagram {
-//   position: absolute;
-//   left: 555px;
-//   top: 60px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
+
+
 /*============ .ICONS pinterest==========*/
-// .fa-pinterest{
-//   position: absolute;
-//   left: 500px;
-//   top: 60px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-// .fa-pinterest {
-//   position: absolute;
-//   left: 590px;
-//   top: 60px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
+
 /*============ .ICONS reddit==========*/
 
-.fa-reddit {
-  position: absolute;
-  left: 1350px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
 
 
 
 
 
 //
+
+
+// <header>
+//         <div class="mainContainer">
+//             <div class="header">
+//                 <div class="header__social-left">
+//                     <div class="btn-round icon brand facebook"></div>
+//                     <div class="btn-round icon brand twitter"></div>
+//                     <div class="btn-round icon brand instagram"></div>
+//                     <div class="btn-round icon brand pinterest"></div>
+//                 </div>
+//                 <div class="header__logo">
+//                     Creative
+//                 </div>
+//                 <div class="header__social-right">
+//                     <div class="btn-round icon search"></div>
+//                 </div>
+//             </div>
+//             <nav>
+//                 <a href="#">Home</a>
+//                 <a href="#">Article</a>
+//                 <a href="#">Contact</a>
+//                 <a href="#">About</a>
+//             </nav>
+//             <div class="breakline"></div>
+//         </div>
+//     </header>
+
+header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+}
+nav{
+  text-align:center;
+  margin:50px 0 0 0;
+}
+a{
+  font-family: font(texte);
+  color: color(texte);
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.2em;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0 15px;
+
+  &:hover{
+    color: color(link);
+  }
+}
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+};
+
+
+.header-left-icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+
+}
+
+.caractère{
+  width: 33%;
+  font-family: font(logo);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  text-align: center;
+}
+
+.search-icon{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+
+}
