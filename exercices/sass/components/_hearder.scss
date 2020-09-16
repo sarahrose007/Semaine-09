@@ -3,10 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-// body{
-//   background-color:#33264E;
-//   // height: 100vh;
-// }
+/*============ . HEADER===========*/
 .header{
   display: flex;
   flex-wrap: wrap;
@@ -16,38 +13,60 @@
   border-bottom:white solid 1px
 
 }
-
+/*============ .LOGO ICONS===========*/
 .logo{
   display: flex;
   text-align: center;
   font-size: 1.5rem;
   width: 30%;
 }
+
+/*============ .MENU HEADER CARACTERE===========*/
 // .caractère{
 //   width: 60%;
 // }
+.texte1{
+  position: absolute;
+  left: 780px;
+  top: 140px;
+  color: white;
+}
+.texte2{
+  position: absolute;
+  left: 880px;
+  top: 140px;
+  color: white;
+}
+.texte3{
+  position: absolute;
+  left: 980px;
+  top: 140px;
+  color: white;
+}
+.texte4{
+  position: absolute;
+  left: 1080px;
+  top: 140px;
+  color: white;
+}
+
+
 .logo2{
   display: flex;
   text-align: center;
   font-size: 1.5rem;
   width: 10%;
 }
-// .photo{
-//   padding-top: 20px;
-//   width: 1600px;
-//   height: 480px;
-// margin-left: 200px;
+.caractère h1{
+  position: absolute;
+  left: 830px;
+  color: white;
+   top: 30px;
+   font-family:"Vampiro One";
+   font-size: 64px;
+ }
+/*============ .SLIDER SECTION===========*/
 
-//   background:url("image12/photo2.jpg");
-//   background-size: cover;
-
-// }
-// #photo1{
-//   object-fit: cover;
-//   width: 1600px;
-//   height: 480px;
-//   margin-left: 200px;
-// }
 #photo1 {
   padding-top: 20px;
   object-fit: cover;
@@ -116,6 +135,8 @@
   font-style: normal;;
   font-size: 14px;
 }
+/*============ .SLIDER SECTION=BOUTTON==========*/
+
 #submit-btn{
   position: absolute;
   width: 200px;
@@ -127,38 +148,8 @@
   font-style: italic;
   font-size: 24px;
 }
-.caractère h1{
-  position: absolute;
-  left: 830px;
-  color: white;
-   top: 30px;
-   font-family:"Vampiro One";
-   font-size: 64px;
- }
-.texte1{
-  position: absolute;
-  left: 780px;
-  top: 140px;
-  color: white;
-}
-.texte2{
-  position: absolute;
-  left: 880px;
-  top: 140px;
-  color: white;
-}
-.texte3{
-  position: absolute;
-  left: 980px;
-  top: 140px;
-  color: white;
-}
-.texte4{
-  position: absolute;
-  left: 1080px;
-  top: 140px;
-  color: white;
-}
+
+
 // .fa-facebook{
 // position: absolute;
 // left: 380px;
