@@ -53,7 +53,7 @@ body {
 }
 
 .comment::before {
-  content: "";
+  content: "";
   font-size: 1.5em;
   color: #EE3E52;
 }
@@ -649,6 +649,29 @@ h4::after {
   display: inline-flex;
   display: flex;
   align-items: center;
+}
+
+.switch {
+  display: inline-block;
+  margin-left: 48%;
+  margin-top: 1.5rem;
+}
+
+.line {
+  height: 13px;
+  width: 25px;
+  background-color: #EE3E52;
+  border-radius: 30%;
+  display: inline-block;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 * {
