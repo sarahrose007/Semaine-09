@@ -49,44 +49,7 @@ body{
 }
 
 
-  .icon {
-    place-items: center;
-    font-family: "Font Awesome 5 Free";
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 900;
-    padding: 15px 20px;
-    display: inline-flex;
-    position: relative;
-    margin: 20px;
-    justify-content: center;
-    left: 65%;
-  }
 
-  .brand{
-    font-family: "Font Awesome 5 Brands";
-  }
-
-  .facebook::before {
-    content: '\f39e';
-    font-size: 1.5em;
-    color:#EE3E52 ;
-  }
-  .comment::before{
-    content:'\f086';
-     font-size: 1.5em;
-     color:#EE3E52 ;
-     }
-
-
-// HTMLUseful for copying and pasting into your HTML (Webfont with CSS or SVG with JS).<i class="far fa-comments"></i>
-    .share::before{
-    content:'\f1e0';
-     font-size: 1.5em;
-     color:#EE3E52 ;
-     }
   .Article{
     width:100%;
     display:flex;

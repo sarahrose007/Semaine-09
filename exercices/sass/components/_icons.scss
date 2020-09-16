@@ -14,19 +14,84 @@
  		font-style: normal;
 
  	}
+/*============ .ICONS twitter==========*/
 
 	&-twitter{
  		color: color-icon(twitter);
- 	}
+   }
+
+
+   .contact-twitter {
+    color:colors(resTwitter);
+    margin: 10px;
+   }
+
+   .fa-tumblr {
+    position: absolute;
+    left: 521px;
+    top: 60px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: magenta;
+    color: white;
+  }
+  .icon-T {
+    margin: 0 1rem 1rem 0;
+  }
+
+   /*============ .ICONS facebook==========*/
  	&-facebook{
  		color: color-icon(facebook);
- 	}
+   }
+
+
+
+
+  .contact-facebook {
+
+     color:colors(resFacebook);
+   margin: 10px;
+   }
+
+
+  .icon-F {
+    margin: 0 1rem 1rem 0;
+  }
+  .icon-f{
+    margin: 0 1rem 1rem 0;
+  }
+   /*============ .ICONS instagram==========*/
  	&-instagram{
  		color: color-icon(instagram);
- 	}
+   }
+
+
+  .fa-instagram:before {
+    content: "\f16d";
+   }
+   contact-instagram {
+     color: #D62976;
+   }
+
+   .contact-instagram {
+     color: #D62976;
+      color:colors(resInstagram);
+      margin: 10px;
+   }
+
+
+
+
+    .icon-I {
+      margin: 0 1rem 1rem 0;
+    }
+
+   /*============ .ICONS pinterest==========*/
  	&-pinterest{
  		color: color-icon(pinterest);
- 	}
+   }
+
 
    .comment::before{
     content:'\f4ad';
@@ -74,35 +139,14 @@
    font-family: "Fontawesome" !important;
    font-style: normal;
  }
- .contact-twitter {
-  color:colors(resTwitter);
-  margin: 10px;
- }
 
-
-.contact-facebook {
-
-   color:colors(resFacebook);
- margin: 10px;
- }
-
- .contact-instagram {
-//   // color: #D62976;
-  color:colors(resInstagram);
-  margin: 10px;
- }
 
  .contact-pinterest {
 //   // color: #EE3E52;
   color:colors(resPinterest);
    margin: 10px;
  }
- .fa-instagram:before {
-  content: "\f16d";
- }
- contact-instagram {
-   color: #D62976;
- }
+
  .footer-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,9 +208,7 @@
 
 
 
-.icon-T{
-	margin: 0 1rem 1rem 0;
-}
+
 
 		span{
 	color: color(texte);
@@ -174,16 +216,7 @@
 	font-size: 1rem;
 
   }
-  // .fa-instagram {
-  //   // position: absolute;
-  //   // left: 555px;
-  //   // top: 60px;
-  //   // width: 30px;
-  //   // height: 30px;
-  //   // border-radius: 100%;
-  //   // background-color: magenta;
-  //   // color: white;
-  // }
+
   .left-contact .footer-icons {
     // display: -webkit-box;
     // display: -ms-flexbox;
@@ -207,20 +240,7 @@
   margin-left: 10px;
   padding-bottom: 1rem;
 }
-// .icon-f {
-//   place-items: center;
-//   font-family: "Font Awesome 5 Free";
-//   text-rendering: auto;
-//   -webkit-font-smoothing: antialiased;
-//   font-style: normal;
-//   font-variant: normal;
-//   font-weight: 900;
-//   padding: 15px 20px;
-//   display: inline-flex;
-//   position: relative;
-//   margin: 20px;
-//   justify-content: center;
-//   /* left: 65%; */
+
 
 // }
 .icon-f {
@@ -239,18 +259,61 @@
   // left: 65%;
 }
 
-.icon-T {
-  margin: 0 1rem 1rem 0;
-}
-.icon-F {
-  margin: 0 1rem 1rem 0;
-}
-.icon-I {
-  margin: 0 1rem 1rem 0;
-}
+
 .contact i {
   font-size: 1.5rem;
   padding: 1rem;
   font-family: "Fontawesome" !important;
   font-style: normal;
 }
+
+
+
+
+
+.fa-reddit {
+  position: absolute;
+  left: 1350px;
+  top: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+.icon {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.brand{
+  font-family: "Font Awesome 5 Brands";
+}
+
+
+.comment::before{
+  content:'\f086';
+   font-size: 1.5em;
+   color:#EE3E52 ;
+   }
+
+
+// HTMLUseful for copying and pasting into your HTML (Webfont with CSS or SVG with JS).<i class="far fa-comments"></i>
+  .share::before{
+  content:'\f1e0';
+   font-size: 1.5em;
+   color:#EE3E52 ;
+   }
+
+

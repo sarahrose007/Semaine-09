@@ -26,44 +26,6 @@ body {
   color: white;
 }
 
-.icon {
-  place-items: center;
-  font-family: "Font Awesome 5 Free";
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  padding: 15px 20px;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: 65%;
-}
-
-.brand {
-  font-family: "Font Awesome 5 Brands";
-}
-
-.facebook::before {
-  content: "";
-  font-size: 1.5em;
-  color: #EE3E52;
-}
-
-.comment::before {
-  content: "";
-  font-size: 1.5em;
-  color: #EE3E52;
-}
-
-.share::before {
-  content: "";
-  font-size: 1.5em;
-  color: #EE3E52;
-}
-
 .Article {
   width: 100%;
   display: flex;
@@ -830,9 +792,12 @@ h4::after {
   font-size: 24px;
 }
 
-.fa-reddit {
+/*============ .ICONS SECTION HEADER==========*/
+/*============ .ICONS facebook==========*/
+/*============ .ICONS twiter==========*/
+.fa-tumblr {
   position: absolute;
-  left: 1350px;
+  left: 521px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -841,9 +806,12 @@ h4::after {
   color: white;
 }
 
-.fa-tumblr {
+/*============ .ICONS instagram==========*/
+/*============ .ICONS pinterest==========*/
+/*============ .ICONS reddit==========*/
+.fa-reddit {
   position: absolute;
-  left: 521px;
+  left: 1350px;
   top: 60px;
   width: 30px;
   height: 30px;
@@ -983,10 +951,6 @@ h4 {
   flex-wrap: wrap;
 }
 
-.icon-f {
-  margin: 0 1rem 1rem 0;
-}
-
 .news-footer {
   margin-right: 2rem;
 }
@@ -1083,6 +1047,10 @@ span {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  /*============ .ICONS twitter==========*/
+  /*============ .ICONS facebook==========*/
+  /*============ .ICONS instagram==========*/
+  /*============ .ICONS pinterest==========*/
 }
 .contact i {
   font-size: 1.5rem;
@@ -1093,11 +1061,52 @@ span {
 .contact-twitter {
   color: color-icon(twitter);
 }
+.contact .contact-twitter {
+  color: #63CDF1;
+  margin: 10px;
+}
+.contact .fa-tumblr {
+  position: absolute;
+  left: 521px;
+  top: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+.contact .icon-T {
+  margin: 0 1rem 1rem 0;
+}
 .contact-facebook {
   color: color-icon(facebook);
 }
+.contact .contact-facebook {
+  color: #507cbe;
+  margin: 10px;
+}
+.contact .icon-F {
+  margin: 0 1rem 1rem 0;
+}
+.contact .icon-f {
+  margin: 0 1rem 1rem 0;
+}
 .contact-instagram {
   color: color-icon(instagram);
+}
+.contact .fa-instagram:before {
+  content: "";
+}
+.contact contact-instagram {
+  color: #D62976;
+}
+.contact .contact-instagram {
+  color: #D62976;
+  color: #d62976;
+  margin: 10px;
+}
+.contact .icon-I {
+  margin: 0 1rem 1rem 0;
 }
 .contact-pinterest {
   color: color-icon(pinterest);
@@ -1137,32 +1146,9 @@ span {
   font-style: normal;
 }
 
-.contact-twitter {
-  color: #63CDF1;
-  margin: 10px;
-}
-
-.contact-facebook {
-  color: #507cbe;
-  margin: 10px;
-}
-
-.contact-instagram {
-  color: #d62976;
-  margin: 10px;
-}
-
 .contact-pinterest {
   color: #ee3e52;
   margin: 10px;
-}
-
-.fa-instagram:before {
-  content: "";
-}
-
-contact-instagram {
-  color: #D62976;
 }
 
 .footer-icons {
@@ -1220,10 +1206,6 @@ contact-instagram {
   flex-wrap: wrap;
 }
 
-.icon-T {
-  margin: 0 1rem 1rem 0;
-}
-
 span {
   color: color(texte);
   font-size: 1rem;
@@ -1263,23 +1245,54 @@ span {
   justify-content: center;
 }
 
-.icon-T {
-  margin: 0 1rem 1rem 0;
-}
-
-.icon-F {
-  margin: 0 1rem 1rem 0;
-}
-
-.icon-I {
-  margin: 0 1rem 1rem 0;
-}
-
 .contact i {
   font-size: 1.5rem;
   padding: 1rem;
   font-family: "Fontawesome" !important;
   font-style: normal;
+}
+
+.fa-reddit {
+  position: absolute;
+  left: 1350px;
+  top: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: magenta;
+  color: white;
+}
+
+.icon {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 65%;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.comment::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+.share::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
 }
 
 .articles-section {
