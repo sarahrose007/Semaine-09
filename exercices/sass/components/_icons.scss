@@ -28,6 +28,15 @@
  		color: color-icon(pinterest);
  	}
 
+   .comment::before{
+    content:'\f4ad';
+     font-size: 1.5em;
+     }
+
+    .share::before{
+    content:'\f1e0';
+     font-size: 1.5em;
+     }
   }
 //  .footer-left .img-icons-footer {
 //      display: -webkit-box;

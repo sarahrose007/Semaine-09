@@ -52,6 +52,18 @@ body {
   color: #EE3E52;
 }
 
+.comment::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+.share::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
 .Article {
   width: 100%;
   display: flex;
@@ -1061,6 +1073,14 @@ span {
 }
 .contact-pinterest {
   color: color-icon(pinterest);
+}
+.contact .comment::before {
+  content: "";
+  font-size: 1.5em;
+}
+.contact .share::before {
+  content: "";
+  font-size: 1.5em;
 }
 
 .line-left {
