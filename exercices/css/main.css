@@ -561,6 +561,12 @@ header {
   margin: 3rem auto;
 }
 
+.search-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
 /*============ .MENU HEADER CARACTERE===========*/
 /*============ .SLIDER SECTION===========*/
 .photo h2 {
@@ -751,24 +757,18 @@ a:hover {
 
 /*============ .  footer  bloc navigation============*/
 .caractère-footer {
-  /* width: 1200px; */
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
-  /* justify-content: right; */
   height: 250px;
   margin: 20px;
   background-color: #362953;
   width: 100%;
+  margin: 0 auto;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
 /*============ .  footer  bloc navigation============*/
-.caractère-footer {
-  background: #362953;
-  margin: 0 auto;
-}
-
 .footer-navigation {
   max-width: 1200px;
   margin: 0 auto;
@@ -784,6 +784,7 @@ a:hover {
   align-items: center;
 }
 
+/*============ .  footer  logoo============*/
 .logo-footer1 {
   font-family: "Vampiro One";
   font-size: 3rem;
@@ -792,10 +793,7 @@ a:hover {
   margin-right: 5rem;
 }
 
-.nav-links a {
-  padding: 0 0.5rem;
-}
-
+/*============ .  footer  nav menu============*/
 a {
   text-decoration: none;
   color: #dadada;
@@ -804,16 +802,16 @@ a {
   letter-spacing: 0.2rem;
 }
 
-.nav-links {
+.nav-menu {
   margin-bottom: 0;
 }
 
-.nav-links .nav-items {
-  margin-right: 6rem;
+.nav-menu a {
+  padding: 0 0.5rem;
 }
 
-.nav-links a {
-  padding: 0 0.5rem;
+.nav-menu .nav-items {
+  margin-right: 6rem;
 }
 
 .footer {
@@ -826,6 +824,7 @@ a {
   margin-top: 9rem;
 }
 
+/*============ .  footer  left============*/
 footer {
   height: 10vh;
   max-width: 1200px;
@@ -844,36 +843,28 @@ footer {
 /*============ .  footer  left============*/
 .footer-left {
   background: #362953;
-  width: 30%;
-  margin-right: 4rem;
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
   margin: 10px;
-  width: 100%;
   height: 200px;
   justify-content: center;
   margin-bottom: 2rem;
-}
-
-.footer-left {
+  width: 30%;
   margin-right: 4rem;
   margin-left: 10px;
-  padding-bottom: 4rem;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
 /*============ . Blogs footer left============*/
-.footer-left .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.footer-contact {
+  max-width: 1200px;
+  height: 300px;
+  margin: 2rem auto;
+  padding: 0 2rem;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 /*============ . Blogs footer right============*/
@@ -886,19 +877,6 @@ footer {
   margin-right: 2rem;
   margin-left: 2rem;
   margin-top: -5rem;
-}
-
-.caractère-footer h1 {
-  width: 1200px;
-  position: absolute;
-  left: 230px;
-  color: white;
-  top: 2300px;
-  font-family: "Vampiro One";
-  font-size: 64px;
-  margin-bottom: 9rem;
-  margin-top: 9rem;
-  width: 100%;
 }
 
 h4 {
@@ -926,23 +904,6 @@ span {
 }
 
 /*============ . Blogs footer left contact============*/
-.footer-contact {
-  max-width: 1200px;
-  height: 300px;
-  margin: 2rem auto;
-  padding: 0 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 3rem;
-}
-
 /*============ . icons footer  contact============*/
 .footer-contact i {
   font-size: 1.5rem;
@@ -966,6 +927,89 @@ span {
   display: inline-block;
   margin-left: 0.5rem;
   margin-bottom: 0.3rem;
+}
+
+.btn-circle {
+  border-radius: 100%;
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  flex-shrink: 0;
+  margin: 0 5px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 0 black;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.btn-rect {
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  padding: 10px 20px;
+  box-shadow: 0 0 0 0 black;
+  transform: scale(1);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.btn-rect:active, .btn-rect:visited, .btn-rect:hover {
+  color: white;
+}
+
+.articleBtn {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+}
+
+.btn-round:hover, .btn-rect:hover {
+  animation: pulse 2s infinite;
+}
+
+.twitter-bg {
+  background: color(twitter);
+}
+
+.facebook-bg {
+  background: color(facebook);
+}
+
+.instagram-bg {
+  background: color(instagram);
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.twitter::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.instagram::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.pinterest::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.search::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.comment::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.share::before {
+  content: "";
+  font-size: 1.5em;
 }
 
 /*============ .  icon  header ============*/
@@ -1252,6 +1296,97 @@ span {
   padding: 1rem;
   font-family: "Fontawesome" !important;
   font-style: normal;
+}
+
+.header-left-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+}
+
+.btn-circle {
+  border-radius: 100%;
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  flex-shrink: 0;
+  margin: 0 5px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 0 black;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.btn-rect {
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  padding: 10px 20px;
+  box-shadow: 0 0 0 0 black;
+  transform: scale(1);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.btn-rect:active, .btn-rect:visited, .btn-rect:hover {
+  color: white;
+}
+
+.articleBtn {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+}
+
+.btn-round:hover, .btn-rect:hover {
+  animation: pulse 2s infinite;
+}
+
+.twitter-bg {
+  background: color(twitter);
+}
+
+.facebook-bg {
+  background: color(facebook);
+}
+
+.instagram-bg {
+  background: color(instagram);
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.twitter::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.instagram::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.pinterest::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.search::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.comment::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.share::before {
+  content: "";
+  font-size: 1.5em;
 }
 
 .articles-section {

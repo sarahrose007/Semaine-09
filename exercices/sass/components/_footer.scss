@@ -2,23 +2,18 @@
 
 /*============ .  footer  bloc navigation============*/
 .caractère-footer {
-  /* width: 1200px; */
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
-  /* justify-content: right; */
   height: 250px;
   margin: 20px;
   background-color:#362953 ;
   width: 100%;
+  margin: 0 auto;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
 
 /*============ .  footer  bloc navigation============*/
-.caractère-footer {
-  background: #362953;
-  margin: 0 auto;
-}
 
 .footer-navigation {
  max-width: 1200px;
@@ -27,13 +22,14 @@
  display: -ms-flexbox;
  display: flex;
  -webkit-box-pack: justify;
-     -ms-flex-pack: justify;
-         justify-content: space-between;
+-ms-flex-pack: justify;
+justify-content: space-between;
  text-align: center;
  -webkit-box-align: center;
-     -ms-flex-align: center;
-         align-items: center;
+-ms-flex-align: center;
+ align-items: center;
 }
+/*============ .  footer  logoo============*/
 .logo-footer1{
   font-family: "Vampiro One";
   font-size: 3rem;
@@ -41,9 +37,8 @@
   text-align: center;
   margin-right: 5rem;
 }
-.nav-links a {
-  padding: 0 .5rem;
-}
+/*============ .  footer  nav menu============*/
+
 
 a {
   text-decoration: none;
@@ -52,16 +47,15 @@ a {
   font-weight: bold;
   letter-spacing: .2rem;
 }
-.nav-links {
+.nav-menu {
  margin-bottom: 0;
 }
 
-.nav-links .nav-items {
- margin-right: 6rem;
+.nav-menu a {
+  padding: 0 .5rem;
 }
-
-.nav-links a {
- padding: 0 .5rem;
+.nav-menu .nav-items {
+ margin-right: 6rem;
 }
 
 .footer{
@@ -75,6 +69,8 @@ a {
    // border-bottom:white solid 1px
 }
 
+/*============ .  footer  left============*/
+
 footer {
   height: 10vh;
   max-width: 1200px;
@@ -83,50 +79,43 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+   align-items: center;
   border-top: 1px solid #777777;
  }
 /*============ .  footer  left============*/
 
+
+
 .footer-left {
   background: #362953;
-  width: 30%;
-  margin-right: 4rem;
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
   margin: 10px;
-  width: 100%;
   height: 200px;
-
   justify-content: center;
   margin-bottom: 2rem;
-
-}
-.footer-left {
-
-
+  width: 30%;
   margin-right: 4rem;
   margin-left: 10px;
-  padding-bottom: 4rem;
+  // padding-bottom: 4rem;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
-/*============ . Blogs footer left============*/
 
-.footer-left .footer-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
+/*============ . Blogs footer left============*/
+.footer-contact {
+  max-width: 1200px;
+  height: 300px;
+  margin: 2rem auto;
+  padding: 0 2rem;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
+
 
 
 /*============ . Blogs footer right============*/
@@ -142,166 +131,16 @@ footer {
 }
 
 
-// .logo-footer{
-//   display: flex;
-//   text-align: center;
-//   font-size: 1.5rem;
-//   width: 30%;
-//   font-family: "Vampiro One";
-//     font-size: 3rem;
-//     color: #ebebeb;
-//     text-align: center;
-//     margin-right: 5rem;
-// }
 
+ h4{
 
-
-
-// .photo{
-//   padding-top: 20px;
-//   width: 1600px;
-//   heig ht: 480px;
-// margin-left: 200px;
-
-//   background:url("image12/photo2.jpg");
-//   background-size: cover;
-
-// }
-
-
-
-
-// .fa-facebook{
-// position: absolute;
-// left: 380px;
-// top: 60px;
-// width: 30px;
-// height: 30px;
-// border-radius: 100%;
-// background-color: magenta;
-// color: white;
-// }
-// .fa-tumblr{
-//   position: absolute;
-//   left: 420px;
-//   top: 60px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-// .fa-instagram{
-//   position: absolute;
-//   left: 460px;
-//   top: 60px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-// .fa-pinterest{
-//   position: absolute;
-//   left: 500px;
-//   top: 60px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-
-
-
-
-// .fa-facebook {
-//   position: absolute;
-//   left: 489px;
-//   top: 2505px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-// .fa-tumblr {
-//   position: absolute;
-//   left: 521px;
-//   top: 2505px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-// .fa-instagram {
-//   position: absolute;
-//   left: 555px;
-//   top: 2505px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-
-// .fa-pinterest {
-//   position: absolute;
-//   left: 590px;
-//   top: 2505px;
-//   width: 30px;
-//   height: 30px;
-//   border-radius: 100%;
-//   background-color: magenta;
-//   color: white;
-// }
-
-
-
-
-
-
-
-.caractère-footer h1 {
-  width: 1200px;
-  position: absolute;
-  left: 230px;
-  color: white;
-  top: 2300px;
-  font-family: "Vampiro One";
-  font-size: 64px;
-  margin-bottom: 9rem;
-  margin-top: 9rem;
-  width: 100%;
-}
-
-
-h4{
-
-    font-family: "Playfair Display";
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: #fff;
-    margin-bottom: 1rem;
-    letter-spacing: .1rem;
-}
-
-
-// .left-contact .contact-icons {
-//   display: -webkit-box;
-//   display: -ms-flexbox;
-//   display: flex;
-//   -webkit-box-align: center;
-//       -ms-flex-align: center;
-//           align-items: center;
-//   -webkit-box-pack: center;
-//       -ms-flex-pack: center;
-//           justify-content: center;
-//   -ms-flex-wrap: wrap;
-//       flex-wrap: wrap;
-// }
-
+     font-family: "Playfair Display";
+     font-size: 1.5rem;
+     font-weight: 800;
+     color: #fff;
+     margin-bottom: 1rem;
+     letter-spacing: .1rem;
+ }
 
 .news-footer {
   margin-right: 2rem;
@@ -320,22 +159,7 @@ span {
 
 /*============ . Blogs footer left contact============*/
 
-.footer-contact {
-  max-width: 1200px;
-  height: 300px;
-  margin: 2rem auto;
-  padding: 0 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 3rem;
-}
+
 /*============ . icons footer  contact============*/
 .footer-contact i {
   font-size: 1.5rem;
@@ -344,11 +168,6 @@ span {
   font-style: normal;
 
 }
-
-
-
-
-
 
 .enter {
   width: 15rem;
@@ -365,3 +184,84 @@ span {
   margin-left: .5rem;
   margin-bottom: 0.3rem;
 }
+
+.btn-circle{
+  border-radius: 100%;
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  flex-shrink: 0;
+  margin: 0 5px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.btn-rect{
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  padding: 10px 20px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+
+  &:active, &:visited, &:hover{
+    color: white;
+  }
+}
+
+.articleBtn{
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+}
+
+.btn-round:hover, .btn-rect:hover{
+  animation: pulse 2s infinite;
+}
+.twitter-bg{
+  background: color(twitter);
+}
+.facebook-bg{
+  background: color(facebook);
+}
+.instagram-bg{
+  background: color(instagram);
+}
+
+.brand{
+font-family: "Font Awesome 5 Brands";
+}
+
+
+ .twitter::before{
+  content:'\f099';
+   font-size: 1.5em;
+ }
+
+ .instagram::before{
+  content:'\f16d';
+  font-size: 1.5em;
+}
+ .pinterest::before{
+  content:'\f0d2';
+  font-size: 1.5em;
+}
+
+.search::before{
+  content:'\f002';
+  font-size: 1.5em;
+  }
+
+.comment::before{
+  content:'\f4ad';
+  font-size: 1.5em;
+  }
+
+.share::before{
+  content:'\f1e0';
+  font-size: 1.5em;
+  }

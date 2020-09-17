@@ -370,13 +370,99 @@
 }
 
 
+.header-left-icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+
+}
 
 
 
 
 
+.btn-circle{
+  border-radius: 100%;
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  flex-shrink: 0;
+  margin: 0 5px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.btn-rect{
+  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  padding: 10px 20px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+
+  &:active, &:visited, &:hover{
+    color: white;
+  }
+}
+
+.articleBtn{
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+}
+
+.btn-round:hover, .btn-rect:hover{
+  animation: pulse 2s infinite;
+}
+.twitter-bg{
+  background: color(twitter);
+}
+.facebook-bg{
+  background: color(facebook);
+}
+.instagram-bg{
+  background: color(instagram);
+}
+
+.brand{
+font-family: "Font Awesome 5 Brands";
+}
 
 
+ .twitter::before{
+  content:'\f099';
+   font-size: 1.5em;
+ }
+
+ .instagram::before{
+  content:'\f16d';
+  font-size: 1.5em;
+}
+ .pinterest::before{
+  content:'\f0d2';
+  font-size: 1.5em;
+}
+
+.search::before{
+  content:'\f002';
+  font-size: 1.5em;
+  }
+
+.comment::before{
+  content:'\f4ad';
+  font-size: 1.5em;
+  }
+
+.share::before{
+  content:'\f1e0';
+  font-size: 1.5em;
+  }
 
 
 
