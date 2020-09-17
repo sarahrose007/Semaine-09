@@ -944,6 +944,10 @@ span {
   cursor: pointer;
 }
 
+.btn-circle:hover, .btn-rect:hover {
+  animation: pulse 2s infinite;
+}
+
 .icon {
   place-items: center;
   font-family: "Font Awesome 5 Free";
@@ -965,6 +969,7 @@ span {
   font-family: "Font Awesome 5 Brands";
 }
 
+/*============ .ICONS social==========*/
 .facebook::before {
   content: "";
   font-size: 1.5em;
@@ -995,8 +1000,6 @@ span {
   content: "";
   font-size: 1.5em;
   color: #EE3E52;
-  background-color: salmon;
-  border-radius: 50%;
 }
 
 .share::before {
@@ -1049,6 +1052,7 @@ span {
   content: "";
 }
 
+/*============ .ICONS footer=========*/
 .contact {
   max-width: 1200px;
   margin: 2rem auto;
@@ -1248,22 +1252,6 @@ span {
   right: 20px;
 }
 
-.btn-round:hover, .btn-rect:hover {
-  animation: pulse 2s infinite;
-}
-
-.twitter-bg {
-  background: color(twitter);
-}
-
-.facebook-bg {
-  background: color(facebook);
-}
-
-.instagram-bg {
-  background: color(instagram);
-}
-
 .twitter::before {
   content: "";
   font-size: 1.5em;
@@ -1281,16 +1269,6 @@ span {
 
 .search::before {
   content: "";
-  font-size: 1.5em;
-}
-
-.comment::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-.share::before {
-  content: "";
   font-size: 1.5em;
 }
 

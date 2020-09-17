@@ -8,11 +8,6 @@
   width: 33%;
 
 }
-
-
-
-
-
 .btn-circle{
   border-radius: 100%;
   background: linear-gradient(120deg, color(gradient1), color(gradient2));
@@ -27,6 +22,18 @@
   cursor: pointer;
 }
 
+.btn-circle:hover, .btn-rect:hover{
+  animation: pulse 2s infinite;
+}
+// .twitter-bg{
+//   background: color(resTwitter);
+// }
+// .facebook-bg{
+//   background: color(facebook);
+// }
+// .instagram-bg{
+//   background: color(instagram);
+// }
 .icon {
   place-items: center;
   font-family: "Font Awesome 5 Free";
@@ -43,11 +50,11 @@
   left: 55%;
 }
 
-
 /*============ .ICONS brand==========*/
 .brand{
   font-family: "Font Awesome 5 Brands";
   }
+/*============ .ICONS social==========*/
 
 .facebook::before {
   content: '\f39e';
@@ -77,24 +84,14 @@
 
   /*============ .  icon  bloc article left============*/
 
-
-
-
-
-
   .comment::before{
   content:'\f086';
   font-size: 1.5em;
   color:#EE3E52 ;
-  background-color: salmon;
-  border-radius: 50%;
+
   }
 
-  // .comment::before{
   // content:'\f4ad';
-  // font-size: 1.5em;
-  // }
-
   .share::before{
   content:'\f1e0';
   font-size: 1.5em;
@@ -133,9 +130,6 @@
 
 .fa-twitter::before {
   content: "\f099";
-
-  // font-size: 1.5em;
-  //   color: #EE3E52
 }
 /*============ .ICONS facebook==========*/
 .facebook1::before {
@@ -156,6 +150,7 @@
 
 
 
+/*============ .ICONS footer=========*/
 
   .contact{
   	max-width: value(width-container);
@@ -430,18 +425,7 @@
   right: 20px;
 }
 
-.btn-round:hover, .btn-rect:hover{
-  animation: pulse 2s infinite;
-}
-.twitter-bg{
-  background: color(twitter);
-}
-.facebook-bg{
-  background: color(facebook);
-}
-.instagram-bg{
-  background: color(instagram);
-}
+
 
 
 
@@ -465,15 +449,14 @@
   font-size: 1.5em;
   }
 
-.comment::before{
-  content:'\f4ad';
-  font-size: 1.5em;
-  }
 
-.share::before{
-  content:'\f1e0';
-  font-size: 1.5em;
-  }
+  // content:'\f4ad';
+
+
+
+
+  // content:'\f1e0';
+
 
 
 
