@@ -223,7 +223,7 @@ header{
 }
 
 .carousel {
-  // background-image: url(img/photos/10.jpeg);
+  background-image: url(../img/photos/8.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -233,20 +233,19 @@ header{
   margin-top: 3rem;
   margin-bottom: 3rem;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-  background-image:url(/exercices/img/photos/8.jpeg);
-}
-#photo-C{
-   background-image:url(/exercices/img/photos/8.jpeg) cover;
-  position:relative;
-  max-width: 1600px;
-  height: 480px;
-  margin: 0 auto;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  object-fit: cover;
 
 }
-
+// #photo-C {
+//   // background-image: url(../img/photos/8.jpeg);
+//   position: relative;
+//   max-width: 1600px;
+//   height: 480px;
+//   margin: 0 auto;
+//   margin-top: 3rem;
+//   margin-bottom: 3rem;
+//   /* object-fit: cover; */
+//   background-size: cover;
+// }
 .carousel .carousel-texte {
   text-align: center;
   position: absolute;
@@ -332,14 +331,14 @@ font-family: "Playfair Display";
 }
 /*============ .SLIDER SECTION=BOUTTON==========*/
 
-#submit-btn{
+#submit-btn {
   width: 10rem;
-    margin-right: 20rem;
-    margin-top: 1rem;
-    padding: .8rem 2rem;
-    background: #EE3E52;
-    color: whitesmoke;
-    border: none;
+  margin-right: -5rem;
+  margin-top: 3rem;
+  padding: 0.8rem 2rem;
+  background: #EE3E52;
+  color: whitesmoke;
+  border: none;
 }
 /*============ .ICONS SECTION HEADER==========*/
 

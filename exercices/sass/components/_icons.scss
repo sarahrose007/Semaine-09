@@ -54,6 +54,8 @@
   content:'\f086';
   font-size: 1.5em;
   color:#EE3E52 ;
+  background-color: salmon;
+  border-radius: 50%;
   }
 
   // .comment::before{
@@ -309,11 +311,6 @@
   flex-wrap: wrap;
 }
 
-.footer-left {
-	background:color(bg-article) ;
-	width: 30%;
-	margin-right: 2rem;
-	 padding-bottom: 1rem;
 
 
 		.footer-icons{
@@ -323,7 +320,7 @@
 			flex-wrap: wrap;
 			//  width: 50%;
 		}
-	}
+
 
 
 
@@ -352,13 +349,13 @@
 
 }
 
-.footer-left {
-  background: #362953;
-  width: 30%;
-  margin-right: 2rem;
-  margin-left: 10px;
-  padding-bottom: 1rem;
-}
+// .footer-left {
+//   background: #362953;
+//   width: 30%;
+//   margin-right: 2rem;
+//   margin-left: 10px;
+//   padding-bottom: 1rem;
+// }
 
 
 

@@ -125,14 +125,15 @@ footer {
 
 /*============ . Blogs footer right============*/
 
-.footer-right{
-  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
-}
 .news-footer p {
   color: whitesmoke;
   font-size: .9rem;
 }
-
+.footer-right{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: -5rem;
+}
 
 
 // .logo-footer{
@@ -269,12 +270,7 @@ footer {
   width: 100%;
 }
 
-.footer-left {
-  background: #362953;
-  width: 30%;
-  margin-right: 2rem;
-  padding-bottom: 1rem;
-}
+
 h4{
 
     font-family: "Playfair Display";
@@ -346,10 +342,7 @@ span {
 
 
 
-.footer-right{
-  margin-right: 2rem;
-  margin-left: 2rem;
-}
+
 
 .enter {
   width: 15rem;
@@ -365,4 +358,12 @@ span {
   display: inline-block;
   margin-left: .5rem;
   margin-bottom: 0.3rem;
+}
+.footer-left {
+  background:color(bg-article) ;
+  width: 30%;
+  margin-right: 4rem;
+  margin-left: 10px;
+  padding-bottom: 4rem;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
