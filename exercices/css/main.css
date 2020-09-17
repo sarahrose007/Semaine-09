@@ -1297,16 +1297,6 @@ span {
   color: white;
 }
 
-.brand {
-  font-family: "Font Awesome 5 Brands";
-}
-
-.facebook::before {
-  content: "";
-  font-size: 1.5em;
-  color: #EE3E52;
-}
-
 .Article-long {
   width: 100%;
   display: flex;
