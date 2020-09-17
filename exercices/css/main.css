@@ -730,14 +730,6 @@ a:hover {
   flex-direction: row;
 }
 
-.header-left-icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  width: 33%;
-}
-
 .caractère {
   width: 33%;
   font-family: "Vampiro One";
@@ -929,6 +921,15 @@ span {
   margin-bottom: 0.3rem;
 }
 
+/*============ .ICONS header==========*/
+.header-left-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+}
+
 .btn-circle {
   border-radius: 100%;
   background: linear-gradient(120deg, color(gradient1), color(gradient2));
@@ -943,77 +944,27 @@ span {
   cursor: pointer;
 }
 
-.btn-rect {
-  background: linear-gradient(120deg, color(gradient1), color(gradient2));
-  padding: 10px 20px;
-  box-shadow: 0 0 0 0 black;
-  transform: scale(1);
-  cursor: pointer;
-  color: white;
-  text-decoration: none;
-}
-.btn-rect:active, .btn-rect:visited, .btn-rect:hover {
-  color: white;
-}
-
-.articleBtn {
-  position: absolute;
-  bottom: -20px;
-  right: 20px;
+.icon {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 55%;
 }
 
-.btn-round:hover, .btn-rect:hover {
-  animation: pulse 2s infinite;
-}
-
-.twitter-bg {
-  background: color(twitter);
-}
-
-.facebook-bg {
-  background: color(facebook);
-}
-
-.instagram-bg {
-  background: color(instagram);
-}
-
+/*============ .ICONS brand==========*/
 .brand {
   font-family: "Font Awesome 5 Brands";
 }
 
-.twitter::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-.instagram::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-.pinterest::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-.search::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-.comment::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-.share::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-/*============ .  icon  header ============*/
-/*============ .ICONS brand==========*/
 .facebook::before {
   content: "";
   font-size: 1.5em;
@@ -1040,26 +991,6 @@ span {
 
 /*============ .ICONS search==========*/
 /*============ .  icon  bloc article left============*/
-.icon {
-  place-items: center;
-  font-family: "Font Awesome 5 Free";
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  padding: 15px 20px;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: 55%;
-}
-
-.brand {
-  font-family: "Font Awesome 5 Brands";
-}
-
 .comment::before {
   content: "";
   font-size: 1.5em;
@@ -1298,28 +1229,6 @@ span {
   font-style: normal;
 }
 
-.header-left-icons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  width: 33%;
-}
-
-.btn-circle {
-  border-radius: 100%;
-  background: linear-gradient(120deg, color(gradient1), color(gradient2));
-  flex-shrink: 0;
-  margin: 0 5px;
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  box-shadow: 0 0 0 0 black;
-  transform: scale(1);
-  cursor: pointer;
-}
-
 .btn-rect {
   background: linear-gradient(120deg, color(gradient1), color(gradient2));
   padding: 10px 20px;
@@ -1353,10 +1262,6 @@ span {
 
 .instagram-bg {
   background: color(instagram);
-}
-
-.brand {
-  font-family: "Font Awesome 5 Brands";
 }
 
 .twitter::before {
