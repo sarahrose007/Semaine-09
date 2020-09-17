@@ -932,7 +932,6 @@ span {
 
 .btn-circle {
   border-radius: 100%;
-  background: linear-gradient(120deg, color(gradient1), color(gradient2));
   flex-shrink: 0;
   margin: 0 5px;
   width: 44px;
@@ -944,8 +943,8 @@ span {
   cursor: pointer;
 }
 
-.btn-circle:hover, .btn-rect:hover {
-  animation: pulse 2s infinite;
+.btn-circle:hover {
+  animation: 3s linear 1s infinite running slidein;
 }
 
 .icon {

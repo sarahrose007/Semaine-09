@@ -10,7 +10,7 @@
 }
 .btn-circle{
   border-radius: 100%;
-  background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  // background: linear-gradient(120deg, color(gradient1), color(gradient2));
   flex-shrink: 0;
   margin: 0 5px;
   width: 44px;
@@ -22,18 +22,11 @@
   cursor: pointer;
 }
 
-.btn-circle:hover, .btn-rect:hover{
-  animation: pulse 2s infinite;
+.btn-circle:hover{
+  // animation: pulse 2s infinite;
+  animation: 3s linear 1s infinite running slidein;
 }
-// .twitter-bg{
-//   background: color(resTwitter);
-// }
-// .facebook-bg{
-//   background: color(facebook);
-// }
-// .instagram-bg{
-//   background: color(instagram);
-// }
+
 .icon {
   place-items: center;
   font-family: "Font Awesome 5 Free";
@@ -199,11 +192,7 @@
     margin: 0 1rem 1rem 0;
   }
 
-// .facebook::before {
-//   content: '\f39e';
-//   font-size: 1.5em;
-//   color:#EE3E52 ;
-// }
+
 
 .contact-facebook {
   color: #507CBE;
