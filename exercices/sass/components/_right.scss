@@ -1,4 +1,6 @@
 /*============ . Blogs Article ============*/
+
+
 /*============ . Blogs Article Right============*/
 
 .right-container{
@@ -9,27 +11,18 @@
   }
   /*========= . Blogs recents-post Right==========*/
 
-
   .Recent-Posts {
     width:100%;
     display:flex;
     justify-content:center;
-    // background:#33264E;
+   background:#33264E;
     margin-bottom:2rem;
     margin-top: 20px;
   justify-content:right;
   max-width: 300px;
   margin:30px;
-  // border-radius: 25px;
    box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
-  //  top: 50%;
-  //   color: #0d0925;
    z-index: 11;
-  //  -webkit-transform: translateY(-50%);
-  //   -ms-transform: translateY(-50%);
-  //   transform: translateY(-50%);
-  //   }
-
 
   }
 
@@ -38,96 +31,22 @@
     height: 100px;
     object-fit: cover;
 }
+/*============ texte post description===========*/
 
-/*========= . Blogs ligne+circle  Right==========*/
-// .horizontal_line {
-//   margin: 34px 0 0 30px;
-//   height: 26px;
-//   position: relative;
-//   border-top: 3px solid #ee3e52;
-//   width: 300px;
-//   margin-top: 13px;
-// }
-// h4::after {
-
-//   content: "";
-//     width: 300px;
-//     border-top: 3px solid #EE3E52;
-//     display: inline-block;
-//     margin-top: -14px;
-//     margin-left: 9.8rem;
-
-
-
-//   }
-
-  // h3::before {
-
-  //   content: "";
-  //     width: 10px;
-  //     height: 10px;
-  //     background-color: #EE3E52;
-  //     display: inline-block;
-  //     transform: rotate(45deg);
-  //     margin-left: .8rem;
-
-
-
-  //   }
 
   /*========= . Blogs recents-post1 Right==========*/
 
-  // .Recent-Posts{
-
-  // }
-  // img{
-  //   width:100%;
-  //   height:100%;
-  //   }
-    .Post-description{
-    width:60%;
-    margin-left:1.5rem;
-    padding:1rem;
-    display:flex;
-    align-items: center;
 
 
+    .Post-description {
+      width: 60%;
+      margin-left: -0.5rem;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+       flex-direction:column;
     }
 
-  // .Posts-photo{
-  //   width:values(width-post);
-  //   height:values(height-post);
-  //   object-fit: cover;
-  //   }
-
-    // img{
-    // width:100%;
-    // height:100%;
-    // object-fit: cover;
-    // }
-
-    // .Post-description{
-    // width:60%;
-    // margin-left:1.5rem;
-    // padding:1rem;
-    //  display:flex;
-    //  align-items: center;
-
-
-    // }
-    // .writer1{
-    //   display:flex;
-    //   align-items: center;
-    // }
-  //   .writer1 h3 {
-  //     display: block;
-  //     font-size: 0.83em;
-  //     margin-block-start: 1.67em;
-  //     margin-block-end: 1.67em;
-  //     margin-inline-start: 0px;
-  //     margin-inline-end: 0px;
-  //     font-weight: bold;
-  // }
  .Post-description p{
       font-family:font(texte);
       font-size:.8rem;
@@ -135,82 +54,55 @@
       line-height:16px;
       margin-top:1rem;
       flex-direction: column;
-
       }
-    //   .Posts-photo {
-    //     width: 100%;
-    // }
+
+/*============ . 2 post =writter1 img===========*/
+.writer1 h3 {
+display: block;
+font-size: 0.83em;
+//     margin-block-start: 1.67em;
+  //     margin-block-end: 1.67em;
+margin-block-start: -0.33em;
+margin-block-end: -0.33em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+color:white;
+// font-family: "Mulish";
+}
+.Posts-photo img {
+width: 92px;
+height: 92px;
+object-fit: cover;
+}
+    .writer1 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+
+
 /*============ . Blogs social profiles ============*/
-
-
 
 .Social-Profiles{
   width:100%;
   display:flex;
   justify-content:center;
- /* background:color(bg-article);*/
   margin-bottom:2rem;
-
 justify-content:right;
 /*height: 370px;*/
-
 max-width: 300px;
 margin:30px;
-
-
-
-/*border-radius: 25px;
-box-shadow: 0 10px 50px rgba(252, 56, 56,.3);
-top: 50%;
-  color: #0d0925;
-  z-index: 11;*/
-
-  /*-webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);*/
+  z-index: 11;
   }
+
+
+
 /*============ . Blogs social twitter ============*/
 
-// .icon1 {
-// //   place-items: center;
-// //   font-family: "Font Awesome 5 Free";
-// //    text-rendering: auto;
-// //    -webkit-font-smoothing: antialiased;
-// //    font-style: normal;
-// //    font-variant: normal;
-// //    font-weight: 900;
-//   padding: 30px 25px;
-//  display: inline-flex;
-//  position: relative;
-//  margin: 20px;
-//  justify-content: center;
-//   left: -45%;
-//  top: -420%;
-//  }
-.brand{
-  font-family: "Font Awesome 5 Brands";
-}
-
-.facebook1::before {
-  content: '\f39e';
-  font-size: 1.5em;
-  color:#EE3E52 ;
-}
-
-
-
-// .Twitter-texte{
-//   width: 75%;
-// }
-// .Twitter-texte {
-//   width: 75%;
-//   background: #63cdf1;
-//   display: flex;
-//   align-items: center;
-
-// }
-.Twitter-texte {
-  width: 75%;
+.Twitter-texte{
+  width: 100%;
   background: #63cdf1;
   /* display: flex; */
   align-items: center;
@@ -229,6 +121,11 @@ padding-left: 2rem;
 font-family: "Playfair Display";
     font-size: 16px;
 }
+
+/*============ . icons twitter ============*/
+
+/*============ . Blogs social facebook ============*/
+
 .Facebook-texte h6 {
   line-height: 10px;
   margin-top: 2rem;
@@ -243,6 +140,8 @@ padding-left: 2rem;
 font-family: "Playfair Display";
     font-size: 16px;
 }
+/*============ . Blogs social instagram ============*/
+
 .Instagram-texte h6 {
   line-height: 10px;
   margin-top: 2rem;
@@ -257,81 +156,18 @@ padding-left: 2rem;
 font-family: "Playfair Display";
     font-size: 16px;
 }
+/*============ . Blogs categorie  ============*/
 
-.img-icons1 {
-  width: 30%;
-  /* object-fit: cover; */
-  // cursor: pointer;
-  height: 30px;
-  display: inline-flex;
-   padding: 15px 20px;
-  border: none;
-
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: 65%;
-}
-.fa-twitter::before {
-  content: "\f099";
-
-  // font-size: 1.5em;
-  //   color: #EE3E52
-}
 .contact-twitter {
   color: #63CDF1;
   margin: 10px;
 }
-// .icon1 {
-//   place-items: center;
-//   font-family: "Font Awesome 5 Free";
-//   text-rendering: auto;
-//   -webkit-font-smoothing: antialiased;
-//   font-style: normal;
-//   font-variant: normal;
-//   font-weight: 900;
-//   display: inline-flex;
-//    position: relative;
-//   margin: 20px;
-//   justify-content: center;
-//   left: -45%;
-//   top: -420%;
-// }
-
-// .img-icons1{
-//   width:30%;
-// object-fit: cover;
-// cursor: pointer;
-
-// height: 30px;
-
-// display: inline-flex;
-// padding: 15px 20px;
-// border: none;
-// cursor: pointer;
-// position: relative;
-// margin: 20px;
-// justify-content: center;
-// left: 65%;
 
 
-//   }
-  // .Twitter_icons{
-  //   background-color:blue ;
-  // }
-  // img{
-  //   width:100%;
-  //   height:100%;
-  //   }
-    .Twitter-texte{
-    width:100%;
-    /*margin-right:1.5rem;
-    padding:1rem;*/
 
 
-background:#63cdf1;
 
-    }
+
 /*======= . Blogs social facebook ==========*/
 .Facebook-texte{
 background:#507cbe;
@@ -357,87 +193,10 @@ background:#ee3e52;
   margin: 30px;
 }
 /*============ . Blogs Categorie bubulles ============*/
-// .Cat-1 h6::before {
-//   background-color:colors(cat1);
 
 
 
-// }
-// .Cat-2 h6::before {
-//   background-color:#5567da;
-// }
-// .Cat-3 h6::before {
-//   background-color:#1e88e5;
-//   display: inline-block;
-
-// }
-// .Cat-4 h6::before {
-//   background-color:#27CC81;
-// }
-// .Cat-5 h6::before {
-//   background-color:#38c4d1;
-// }
-// .Cat-6 h6::before {
-//   background-color:#e91e63;
-// }
-
-// .Section-Categories h6::before {
-
-
-//   content: '';
-//     height: 8px;
-//     width: 8px;
-
-//     // background-color: #27CC81;
-//     border-radius: 50%;
-//     display: inline-block;
-//     margin-right: .5rem;
-
-//   }
-  .Posts-photo img{
-    // width:Post-img(width-post);
-    // height:Post-img(height-post);
-    // background: url("img/photos/6.jpeg");
-    object-fit: cover;
-}
-// .Post-description {
-//   width: 60%;
-//   margin-left: -0.5rem;
-//   padding: 1rem;
-//   display: flex;
-//   align-items: center;
-// }
-
-.writer1 h3 {
-  display: block;
-  font-size: 0.83em;
-  margin-block-start: -0.33em;
-  margin-block-end: -0.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  color:white;
-}
-.Posts-photo img {
-  width: 92px;
-  height: 92px;
-  object-fit: cover;
-}
-
-.writer1 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.Post-description {
-  width: 60%;
-  margin-left: -0.5rem;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-   flex-direction:column;
-}
+/*============ . Blogs advertissing ============*/
 .Article-x{
   width:40%;
   display:flex;
@@ -453,74 +212,5 @@ background:#ee3e52;
     height:100%;
     object-fit: cover;
     }
-  //   .icon1 {
-  //     place-items: center;
-  //     font-family: "Font Awesome 5 Free";
-  //     text-rendering: auto;
-  //     -webkit-font-smoothing: antialiased;
-  //     font-style: normal;
-  //     font-variant: normal;
-  //     font-weight: 900;
 
-  //     display: inline-flex;
-  //     position: relative;
-  //     margin: 20px;
-  //     justify-content: center;
-  //     left: -45%;
-  //     top: -420%;
-  //     padding: 30px 25px;
-  // }
-//   .img-icons1 {
-//     width: 30%;
-//     /* object-fit: cover; */
-//     height: 50px;
-//     display: inline-flex;
-//     padding: 15px 20px;
-//     border: none;
-//     position: relative;
-//     margin: 20px;
-//     /* justify-content: center; */
-//     left: 65%;
-// }
-.img-icons1 {
-  width: 30%;
-  /* object-fit: cover; */
-  height: 40px;
-  display: inline-flex;
-  padding: 15px 20px;
-  border: none;
-  position: relative;
-  margin: 20px;
-  /* justify-content: center; */
-  left: 65%;
-}
-.icon1 {
-  place-items: center;
-  /* font-family: "Font Awesome 5 Free"; */
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: -45%;
-  top: -420%;
-}
-.icon1 {
-  place-items: center;
-  // font-family: "Font Awesome 5 Free";
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: -45%;
-  top: -420%;
-}
+

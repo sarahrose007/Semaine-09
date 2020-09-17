@@ -1,3 +1,128 @@
+  /*============ .  icon  header ============*/
+/*============ .ICONS brand==========*/
+.facebook::before {
+  content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+.twitter::before {
+  content: '\f09a';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+.instagram::before {
+  content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+.pinterest::before {
+  content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+
+/*============ .ICONS search==========*/
+
+
+
+
+  /*============ .  icon  bloc article left============*/
+
+  .icon {
+    place-items: center;
+    font-family: "Font Awesome 5 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    padding: 15px 20px;
+    display: inline-flex;
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+    left: 55%;
+}
+
+  .brand{
+    font-family: "Font Awesome 5 Brands";
+  }
+
+
+
+  .comment::before{
+  content:'\f086';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+  }
+
+  // .comment::before{
+  // content:'\f4ad';
+  // font-size: 1.5em;
+  // }
+
+  .share::before{
+  content:'\f1e0';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+       }
+
+/*============ .  icon  social profies right============*/
+.icon1 {
+  place-items: center;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: -47%;
+  top: -269%;
+}
+
+.img-icons1 {
+  width: 30%;
+  height: 30px;
+  display: inline-flex;
+   padding: 15px 20px;
+  border: none;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 55%;
+}
+
+/*============ .ICONS twitter==========*/
+
+.fa-twitter::before {
+  content: "\f099";
+
+  // font-size: 1.5em;
+  //   color: #EE3E52
+}
+/*============ .ICONS facebook==========*/
+.facebook1::before {
+  // content: '\f39e';
+  font-size: 1.5em;
+  color:#EE3E52 ;
+}
+/*============ .ICONS instagram==========*/
+.fa-instagram:before {
+  content: "\f16d";
+ }
+
+
+
+
+
+
+
+
+
+
   .contact{
   	max-width: value(width-container);
  	margin: 2rem auto;
@@ -26,16 +151,6 @@
     margin: 10px;
    }
 
-   .fa-tumblr {
-    position: absolute;
-    left: 521px;
-    top: 60px;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-color: magenta;
-    color: white;
-  }
   .icon-T {
     margin: 0 1rem 1rem 0;
   }
@@ -45,31 +160,33 @@
  		color: color-icon(facebook);
    }
 
-
-
-
   .contact-facebook {
 
      color:colors(resFacebook);
    margin: 10px;
    }
 
-
   .icon-F {
     margin: 0 1rem 1rem 0;
   }
-  .icon-f{
-    margin: 0 1rem 1rem 0;
-  }
+
+// .facebook::before {
+//   content: '\f39e';
+//   font-size: 1.5em;
+//   color:#EE3E52 ;
+// }
+
+.contact-facebook {
+  color: #507CBE;
+}
+
    /*============ .ICONS instagram==========*/
  	&-instagram{
  		color: color-icon(instagram);
    }
 
 
-  .fa-instagram:before {
-    content: "\f16d";
-   }
+
    contact-instagram {
      color: #D62976;
    }
@@ -93,29 +210,9 @@
    }
 
 
-   .comment::before{
-    content:'\f4ad';
-     font-size: 1.5em;
-     }
 
-    .share::before{
-    content:'\f1e0';
-     font-size: 1.5em;
-     }
   }
-//  .footer-left .img-icons-footer {
-//      display: -webkit-box;
-//     display: -ms-flexbox;
-//     display: flex;
-//     -webkit-box-align: center;
-//     -ms-flex-align: center;
-//     align-items: center;
-//     -webkit-box-pack: center;
-//     -ms-flex-pack: center;
-//     justify-content: center;
-//     -ms-flex-wrap: wrap;
-//     flex-wrap: wrap;
-// }
+
 .line-left{
    font-family: "Playfair Display";
      font-size: 1.5rem;
@@ -147,6 +244,8 @@
    margin: 10px;
  }
 
+/*============ .  icon  bloc footer============*/
+
  .footer-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,6 +259,26 @@
   -ms-flex-wrap: wrap;
    flex-wrap: wrap;
  }
+
+ .icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  // padding: 15px 20px;
+  // display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  // left: 65%;
+  margin: 0 1rem 1rem 0;
+}
+
+
+
  .contact-icons {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -242,22 +361,8 @@
 }
 
 
-// }
-.icon-f {
-  place-items: center;
-  font-family: "Font Awesome 5 Free";
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  // padding: 15px 20px;
-  // display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  // left: 65%;
-}
+
+
 
 
 .contact i {
@@ -271,49 +376,16 @@
 
 
 
-.fa-reddit {
-  position: absolute;
-  left: 1350px;
-  top: 60px;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  background-color: magenta;
-  color: white;
-}
-.icon {
-  place-items: center;
-  font-family: "Font Awesome 5 Free";
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  padding: 15px 20px;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: 65%;
-}
-
-.brand{
-  font-family: "Font Awesome 5 Brands";
-}
 
 
-.comment::before{
-  content:'\f086';
-   font-size: 1.5em;
-   color:#EE3E52 ;
-   }
 
 
-// HTMLUseful for copying and pasting into your HTML (Webfont with CSS or SVG with JS).<i class="far fa-comments"></i>
-  .share::before{
-  content:'\f1e0';
-   font-size: 1.5em;
-   color:#EE3E52 ;
-   }
+
+
+
+
+
+
+
 
 
