@@ -1,6 +1,5 @@
 /*============ . circle Section ============*/
 
-
 .article-description h2::before {
   content: '';
     height: Auteurs-deco(height-Deco);
@@ -14,7 +13,6 @@
 
   /*============ . circle Section ============*/
   .writer-x h5::after {
-
   content: "";
     width: Category( width-h5);
     height:Category( height-h5);
@@ -26,13 +24,8 @@
    margin: 2px 10px 4px 8px;
    color: #fff;
 }
-
-
-
-
   /*============ . circle Section ============*/
   h3::before {
-
     content: "";
       width: 10px;
       height: 10px;
@@ -41,30 +34,11 @@
       transform: rotate(45deg);
       // margin-left: .8rem;
       margin: 2px 8px 2px 0;
-
-
-
     }
 /*============ . circle Section ============*/
-    //  h4::after {
-
-    //    content: "";
-    //      width: 300px;
-    //     border-top: 3px solid #EE3E52;
-    //      display: inline-block;
-    //     margin-top: -14px;
-    //     margin-left: 9.8rem;
-
-
-
-    //    }
-
       /*============ . Blogs Categorie bubulles ============*/
 .Cat-1 h6::before {
   background-color:colors(cat1);
-
-
-
 }
 .Cat-2 h6::before {
   background-color:#5567da;
@@ -83,10 +57,7 @@
 .Cat-6 h6::before {
   background-color:#e91e63;
 }
-
 .Section-Categories h6::before {
-
-
   content: '';
     height:circle(height-circle);
     width:circle(width-circle);
@@ -98,7 +69,6 @@
     border-radius: 50%;
     display: inline-block;
     margin-right: .5rem;
-
   }
 
   @mixin Section-Categories{
@@ -118,7 +88,6 @@
     margin-bottom: 2rem;
     box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
-
  .Section-Categories{
   width:100%;
    display:flex;
@@ -129,11 +98,8 @@
       /*height: 370px;*/
       max-width: 215px;
       margin: 33px;
-
-
     display: -webkit-box;
     display: -ms-flexbox;
-
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -145,7 +111,6 @@
     margin-bottom: 2rem;
     line-height: 2rem;
 }
-
 
 .category{
   &.Cat-1 h6::before{
@@ -182,20 +147,7 @@
             @include Section-Categories;
             }
 
-
-
  }
-
-
-// h4::after {
-//   content: "";
-//   width: 136px;
-//   border-top: 3px solid #EE3E52;
-//   display: inline-block;
-//   margin-top: -14px;
-//   margin-left: 9.8rem;
-// }
-
 
 .writer-x{
   display: inline-flex;

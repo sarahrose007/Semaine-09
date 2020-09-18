@@ -12,7 +12,6 @@
   margin: 0 auto;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
-
 /*============ .  footer  bloc navigation============*/
 
 .footer-navigation {
@@ -39,7 +38,6 @@ justify-content: space-between;
 }
 /*============ .  footer  nav menu============*/
 
-
 a {
   text-decoration: none;
   color: #dadada;
@@ -50,14 +48,12 @@ a {
 .nav-menu {
  margin-bottom: 0;
 }
-
 .nav-menu a {
   padding: 0 .5rem;
 }
 .nav-menu .nav-items {
  margin-right: 6rem;
 }
-
 .footer{
   display: flex;
   flex-wrap: wrap;
@@ -68,9 +64,7 @@ a {
   margin-top: 9rem;
    // border-bottom:white solid 1px
 }
-
 /*============ .  footer  left============*/
-
 footer {
   height: 10vh;
   max-width: 1200px;
@@ -86,9 +80,6 @@ footer {
   border-top: 1px solid #777777;
  }
 /*============ .  footer  left============*/
-
-
-
 .footer-left {
   background: #362953;
   padding-bottom: 4rem;
@@ -102,7 +93,6 @@ footer {
   // padding-bottom: 4rem;
   box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
 }
-
 /*============ . Blogs footer left============*/
 .footer-contact {
   max-width: 1200px;
@@ -115,9 +105,6 @@ footer {
   align-items: center;
   margin-bottom: 3rem;
 }
-
-
-
 /*============ . Blogs footer right============*/
 
 .news-footer p {
@@ -129,9 +116,6 @@ footer {
   margin-left: 2rem;
   margin-top: -5rem;
 }
-
-
-
  h4{
 
      font-family: "Playfair Display";
@@ -141,7 +125,6 @@ footer {
      margin-bottom: 1rem;
      letter-spacing: .1rem;
  }
-
 .news-footer {
   margin-right: 2rem;
 }
@@ -156,9 +139,7 @@ span {
   font-family: "Playfair Display";
   font-size: 1rem;
 }
-
 /*============ . Blogs footer left contact============*/
-
 
 /*============ . icons footer  contact============*/
 .footer-contact i {
@@ -168,7 +149,6 @@ span {
   font-style: normal;
 
 }
-
 .enter {
   width: 15rem;
   padding: 1rem 2rem;
