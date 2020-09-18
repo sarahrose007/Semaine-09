@@ -14,7 +14,7 @@
   margin-left:3rem;
 
   }
-.article-description h1{
+.article-description-long h1{
   // font-family:font-family(titre);
   font-family:"Playfair Display";
    font-size: 30px;
@@ -94,4 +94,17 @@ align-items:center ;
 justify-content: left;
 padding: 0 25px;
 height:values(height-image);
+}
+.icon-f {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  margin: 0 1rem 1rem 0;
 }
