@@ -9,9 +9,46 @@ header{
   display: flex;
   flex-direction:column;
   width: 100%;
-  max-width: 1200px;
+  width: 1200px;
+
+    // flex-direction: row;
 }
 
+.header-contaire{
+  display: flex;
+  flex-direction: row;
+};
+
+.header-left-icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+
+}
+
+.caractère {
+  width: 58%;
+  font-family: "Vampiro One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  text-align: center;
+  font-size: 3rem;
+  color: #ebebeb;
+  text-align: center;
+  margin-right: 0rem;
+}
+
+
+.search-icon{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+}
 // .header {
 
 //   display: flex;
@@ -36,12 +73,6 @@ header{
   background-color: #777777;
   margin: 3rem auto;
 }
- .search-icon {
-
-  width:50px;
-  height: 50px;
-  border-radius: 100%;
- }
 
 
 // .caractère {
@@ -182,6 +213,13 @@ font-family: "Playfair Display";
   background: #EE3E52;
   color: whitesmoke;
   border: none;
+  padding: 10px 20px;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  transform: scale(1);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+
 }
 /*============ .ICONS SECTION HEADER==========*/
 
@@ -229,20 +267,12 @@ a{
 
 
 
-.caractère{
-  width: 33%;
-  font-family: font(logo);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  text-align: center;
-}
 
 .search-icon{
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   align-content: center;
-  width: 33%;
+  width: 10%;
 
 }

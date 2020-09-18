@@ -5,21 +5,22 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  width: 33%;
+  width: 36%;
 
 }
 .btn-circle{
   border-radius: 100%;
-  // background: linear-gradient(120deg, color(gradient1), color(gradient2));
+  background-color:rgba(252, 56, 56, 0.3);
   flex-shrink: 0;
   margin: 0 5px;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   display: grid;
   place-items: center;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
   transform: scale(1);
   cursor: pointer;
+
 }
 
 .btn-circle:hover{
@@ -47,7 +48,7 @@
 .brand{
   font-family: "Font Awesome 5 Brands";
   }
-/*============ .ICONS social==========*/
+/*============ .ICONS social=header=========*/
 
 .facebook::before {
   content: '\f39e';
@@ -62,16 +63,30 @@
 .instagram::before {
   content: '\f39e';
   font-size: 1.5em;
-  color:#EE3E52 ;
+   color:#EE3E52 ;
 }
 .pinterest::before {
-  content: '\f39e';
+  // content: '\f39e';
   font-size: 1.5em;
-  color:#EE3E52 ;
+   color:#EE3E52 ;
+}
+.pinterest::before{
+   content:'\f0d2';
+  font-size: 1.5em;
+   color:#EE3E52 ;
 }
 
-/*============ .ICONS search==========*/
 
+/*============ .ICONS left==========*/
+
+
+
+/*============ .ICONS search==========*/
+.search::before{
+  content:'\f002';
+  font-size: 1.5em;
+  color: #EE3E52;
+  }
 
 
 
@@ -92,50 +107,54 @@
        }
 
 /*============ .  icon  social profies right============*/
-.icon1 {
-  place-items: center;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: -47%;
-  top: -269%;
-}
 
 .img-icons1 {
   width: 30%;
   height: 30px;
   display: inline-flex;
-   padding: 15px 20px;
+  padding: 15px 20px;
   border: none;
   position: relative;
-  margin: 20px;
+  /* margin: 20px; */
   justify-content: center;
-  left: 55%;
+  left: 10%;
+  /* top: 8%; */
+  bottom: 76px;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-left: 10rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+  text-align: end;
 }
 
-/*============ .ICONS twitter==========*/
+/*============ .ICONS twitter=right=========*/
 
 .fa-twitter::before {
   content: "\f099";
+  // color: #63CDF1;
 }
 /*============ .ICONS facebook==========*/
 .facebook1::before {
   // content: '\f39e';
   font-size: 1.5em;
   color:#EE3E52 ;
+  // color: #507CBE;
 }
-/*============ .ICONS instagram==========*/
+/*============ .ICONS instagram=right=========*/
 .fa-instagram:before {
   content: "\f16d";
+  // color:#EE3E52 ;
+
  }
+ .icon-I {
 
+   color:#EE3E52 ;
+ }
+ .icon-F {
 
+  color:#507CBE ;
+}
 
 
 
@@ -191,7 +210,12 @@
   .icon-F {
     margin: 0 1rem 1rem 0;
   }
+  .contact-pinterest {
 
+    color:colors(resPinterest);
+     margin: 10px;
+    //  color: #EE3E52;
+   }
 
 
 .contact-facebook {
@@ -205,7 +229,7 @@
 
 
 
-   contact-instagram {
+   .contact-instagram {
      color: #D62976;
    }
 
@@ -408,17 +432,6 @@
   }
 }
 
-.articleBtn{
-  position: absolute;
-  bottom: -20px;
-  right: 20px;
-}
-
-
-
-
-
-
  .twitter::before{
   content:'\f099';
    font-size: 1.5em;
@@ -428,15 +441,9 @@
   content:'\f16d';
   font-size: 1.5em;
 }
- .pinterest::before{
-  content:'\f0d2';
-  font-size: 1.5em;
-}
 
-.search::before{
-  content:'\f002';
-  font-size: 1.5em;
-  }
+
+
 
 
   // content:'\f4ad';

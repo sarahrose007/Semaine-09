@@ -550,7 +550,41 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1200px;
+  width: 1200px;
+}
+
+.header-contaire {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-left-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
+}
+
+.caractère {
+  width: 58%;
+  font-family: "Vampiro One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  text-align: center;
+  font-size: 3rem;
+  color: #ebebeb;
+  text-align: center;
+  margin-right: 0rem;
+}
+
+.search-icon {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 33%;
 }
 
 /*============ .LOGO ICONS===========*/
@@ -559,12 +593,6 @@ header {
   height: 1px;
   background-color: #777777;
   margin: 3rem auto;
-}
-
-.search-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
 }
 
 /*============ .MENU HEADER CARACTERE===========*/
@@ -697,6 +725,12 @@ h6::before {
   background: #EE3E52;
   color: whitesmoke;
   border: none;
+  padding: 10px 20px;
+  box-shadow: 0 10px 50px rgba(252, 56, 56, 0.3);
+  transform: scale(1);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 /*============ .ICONS SECTION HEADER==========*/
@@ -730,21 +764,12 @@ a:hover {
   flex-direction: row;
 }
 
-.caractère {
-  width: 33%;
-  font-family: "Vampiro One";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  text-align: center;
-}
-
 .search-icon {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   align-content: center;
-  width: 33%;
+  width: 10%;
 }
 
 /*============ .  footer  bloc navigation============*/
@@ -927,15 +952,16 @@ span {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  width: 33%;
+  width: 36%;
 }
 
 .btn-circle {
   border-radius: 100%;
+  background-color: rgba(252, 56, 56, 0.3);
   flex-shrink: 0;
   margin: 0 5px;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   display: grid;
   place-items: center;
   box-shadow: 0 0 0 0 black;
@@ -968,7 +994,7 @@ span {
   font-family: "Font Awesome 5 Brands";
 }
 
-/*============ .ICONS social==========*/
+/*============ .ICONS social=header=========*/
 .facebook::before {
   content: "";
   font-size: 1.5em;
@@ -988,12 +1014,24 @@ span {
 }
 
 .pinterest::before {
-  content: "";
   font-size: 1.5em;
   color: #EE3E52;
 }
 
+.pinterest::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
+/*============ .ICONS left==========*/
 /*============ .ICONS search==========*/
+.search::before {
+  content: "";
+  font-size: 1.5em;
+  color: #EE3E52;
+}
+
 /*============ .  icon  bloc article left============*/
 .comment::before {
   content: "";
@@ -1008,21 +1046,6 @@ span {
 }
 
 /*============ .  icon  social profies right============*/
-.icon1 {
-  place-items: center;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  display: inline-flex;
-  position: relative;
-  margin: 20px;
-  justify-content: center;
-  left: -47%;
-  top: -269%;
-}
-
 .img-icons1 {
   width: 30%;
   height: 30px;
@@ -1030,12 +1053,20 @@ span {
   padding: 15px 20px;
   border: none;
   position: relative;
-  margin: 20px;
+  /* margin: 20px; */
   justify-content: center;
-  left: 55%;
+  left: 10%;
+  /* top: 8%; */
+  bottom: 76px;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-left: 10rem;
+  font-family: "Fontawesome" !important;
+  font-style: normal;
+  text-align: end;
 }
 
-/*============ .ICONS twitter==========*/
+/*============ .ICONS twitter=right=========*/
 .fa-twitter::before {
   content: "";
 }
@@ -1046,9 +1077,17 @@ span {
   color: #EE3E52;
 }
 
-/*============ .ICONS instagram==========*/
+/*============ .ICONS instagram=right=========*/
 .fa-instagram:before {
   content: "";
+}
+
+.icon-I {
+  color: #EE3E52;
+}
+
+.icon-F {
+  color: #507CBE;
 }
 
 /*============ .ICONS footer=========*/
@@ -1091,13 +1130,17 @@ span {
 .contact .icon-F {
   margin: 0 1rem 1rem 0;
 }
+.contact .contact-pinterest {
+  color: #ee3e52;
+  margin: 10px;
+}
 .contact .contact-facebook {
   color: #507CBE;
 }
 .contact-instagram {
   color: color-icon(instagram);
 }
-.contact contact-instagram {
+.contact .contact-instagram {
   color: #D62976;
 }
 .contact .contact-instagram {
@@ -1245,12 +1288,6 @@ span {
   color: white;
 }
 
-.articleBtn {
-  position: absolute;
-  bottom: -20px;
-  right: 20px;
-}
-
 .twitter::before {
   content: "";
   font-size: 1.5em;
@@ -1258,16 +1295,6 @@ span {
 
 .instagram::before {
   content: "";
-  font-size: 1.5em;
-}
-
-.pinterest::before {
-  content: "";
-  font-size: 1.5em;
-}
-
-.search::before {
-  content: "";
   font-size: 1.5em;
 }
 
