@@ -108,3 +108,65 @@ height:values(height-image);
   justify-content: center;
   margin: 0 1rem 1rem 0;
 }
+
+
+
+
+.fa-twitter::before {
+  content: "\f099";
+  // color: #63CDF1;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+.fa {
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  padding: 15px 20px;
+  display: inline-flex;
+  position: relative;
+  margin: 20px;
+  justify-content: center;
+  left: 55%;
+}
+
+
+div {
+  display: block;
+}
+.fa-facebook::before {
+  content: "";
+  font-size: 1.5em;
+  color: rgb(238, 62, 82);
+}
+.fa-tumblr::before {
+  content: "";
+  font-size: 1.5em;
+  color: rgb(238, 62, 82);
+}
+.fa-instagram::before {
+  content: "";
+  font-size: 1.5em;
+  // color: rgb(238, 62, 82);
+}
+.fa-pinterest::before {
+  content: "";
+  font-size: 1.5em;
+  color: rgb(238, 62, 82);
+}
+.fa-search::before {
+  content: "";
+  font-size: 1.5em;
+  color: rgb(238, 62, 82);
+}
+.fa-facebook-f::before {
+  content: "";
+  font-size: 1.5em;
+  // color: rgb(238, 62, 82);
+}

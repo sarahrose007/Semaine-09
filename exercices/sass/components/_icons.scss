@@ -454,7 +454,11 @@
   // content:'\f1e0';
 
 
-
+  .contact-instagram::before {
+    content: "";
+    font-size: 1.5em;
+    color: #D62976;
+}
 
 
 
